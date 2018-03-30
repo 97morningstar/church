@@ -380,30 +380,32 @@ function newlife_church_ready_actions() {
     //----------------------------------------------
 
 	// Add popup
+	/*
 	var login_window_content = '<div id="popup_login" class="popup_wrap popup_login bg_tint_light">';
 	login_window_content +=			'<a href="#" class="popup_close"></a>';
 	login_window_content +=			'<div class="form_wrap">';
 	login_window_content +=			'	<div class="form_left">';
-	login_window_content +=			'		<form action="#" method="post" name="login_form" class="popup_form login_form">';
+	login_window_content +=			'		<form action="/login" method="POST" name="login_form" class="popup_form login_form">';
+	login_window_content +=		    '			 {!! csrf_field() !!}';
 	login_window_content +=			'			<div class="popup_form_field login_field iconed_field icon-user">';
-	login_window_content +=			'				<input type="text" id="log" name="log" value="" placeholder="Login or Email">';
+	login_window_content +=			'				<input type="email" name="email"  id="log" value="" placeholder="Usuario o Correo Electrónico">';
 	login_window_content +=			'			</div>';
 	login_window_content +=			'			<div class="popup_form_field password_field iconed_field icon-lock">';
-	login_window_content +=			'				<input type="password" id="password" name="pwd" value="" placeholder="Password">';
+	login_window_content +=			'				<input type="password" id="password" name="password" value="" placeholder="Contraseña">';
 	login_window_content +=			'			</div>';
 	login_window_content +=			'			<div class="popup_form_field remember_field">';
 	login_window_content +=			'				<input type="checkbox" value="forever" id="rememberme" name="rememberme">';
-	login_window_content +=			'				<label for="rememberme">Remember me</label>';
-	login_window_content +=			'				<a href="#" class="forgot_password">Forgot password?</a>';
+	login_window_content +=			'				<label for="rememberme">Recuérdame</label>';
+	login_window_content +=			'				<a href="#" class="forgot_password">Olvidaste?</a>';
 	login_window_content +=			'			</div>';
 	login_window_content +=			'			<div class="popup_form_field submit_field">';
-	login_window_content +=			'				<input type="submit" class="submit_button" value="Login">';
+	login_window_content +=			'				<input type="submit" class="submit_button" value="Entrar">';
 	login_window_content +=			'			</div>';
 	login_window_content +=			'		</form>';
 	login_window_content +=			'	</div>';
 	login_window_content +=			'	<div class="form_right">';
-	login_window_content +=			'		<div class="login_socials_title">You can login using your social profile</div>';
-	login_window_content +=			'		<div>Install social plugin that has its own SHORTCODE.</div>';
+	login_window_content +=			'		<div class="login_socials_title">Pase de administradores</div>';
+	login_window_content +=			'		<div>Por favor contacta a uno de los líderes si necesitas un pase de administrador. Bendiciones.</div>';
 	login_window_content +=			'		<div class="result message_block"></div>';
 	login_window_content +=			'	</div>';
 	login_window_content +=			'</div>';
@@ -430,19 +432,18 @@ function newlife_church_ready_actions() {
 		e.preventDefault();
 		return false;
 	});
-
-
+*/
 	// Forms validation
     //----------------------------------------------
 
 	// Login form
-	jQuery('.popup_form.login_form').submit(function(e){
+/*	jQuery('.popup_form.login_form').submit(function(e){
 		"use strict";
 		var rez = newlife_church_login_validate(jQuery(this));
 		if (!rez)
 			e.preventDefault();
 		return rez;
-	});
+	});*/
 	
 	// Registration form
 	jQuery('.popup_form.registration_form').submit(function(e){

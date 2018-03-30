@@ -372,13 +372,13 @@ textarea {
   color: #3799AB;
 }
 .scheme_original .top_panel_inner_style_5 .top_panel_top {
-  background-color: rgba(29,198,223,0.08);
+  background-color: rgb(255, 255, 255);
 }
 .scheme_original .top_panel_style_5 .top_panel_top_search .search_wrap .search_submit {
-  color: rgba(255,255,255,0.35);
+  color: rgb(255,255,255);
 }
 .scheme_original .top_panel_style_5 .top_panel_top_search .search_wrap .search_submit:hover {
-  color: #ffffff;
+  color: rgba(255,255,255,0.35);
 }
 .scheme_original .top_panel_style_5 .top_panel_top .search_field,
 .scheme_original .top_panel_style_5 .top_panel_top .search_field:focus {
@@ -579,15 +579,15 @@ textarea {
   padding-bottom: 0.45835em;
 }
 .scheme_original .content .search_form_wrap {
-  background-color: #F3F5F8;
+  background-color: #FFF;
 }
 .scheme_original .content .search_field,
 .scheme_original .content .search_submit {
-  color: #555555;
+  color: #FFF;
 }
 .scheme_original .content .search_field:focus,
 .scheme_original .content .search_submit:hover {
-  color: #212121;
+  color: #FFF;
 }
 .scheme_original .top_panel_inner_style_3 .search_field {
   color: #ffffff;
@@ -599,11 +599,11 @@ textarea {
   background-color: #FFFFFF;
 }
 .scheme_original .top_panel_icon.search_wrap {
-  color: #1DC6DF;
+  color: #FFF;
 }
 .scheme_original .top_panel_icon .contact_icon,
 .scheme_original .top_panel_icon .search_submit {
-  color: #1DC6DF;
+  color: #FFF;
 }
 .scheme_original .top_panel_icon.menu_main_cart .contact_icon {
   background-color: #FFFFFF;
@@ -612,7 +612,7 @@ textarea {
 .scheme_original .top_panel_icon.search_wrap:hover,
 .scheme_original .top_panel_icon:hover .contact_icon,
 .scheme_original .top_panel_icon:hover .search_submit {
-  background-color: #1DC6DF;
+  background-color: #FFF;
 }
 .scheme_original .top_panel_middle a:hover .contact_icon,
 .scheme_original .top_panel_icon.search_wrap:hover input,
@@ -2646,10 +2646,10 @@ button,
   background-color: #F3F5F8;
 }
 .scheme_original .top_panel_top_socials .sc_socials.sc_socials_type_icons a {
-  color: rgba(255,255,255,0.35);
+  color: rgb(255,255,255);
 }
 .scheme_original .top_panel_top_socials .sc_socials.sc_socials_type_icons a:hover {
-  color: #ffffff;
+  color:rgba(255,255,255,0.35);
 }
 .scheme_original .sc_tabs.sc_tabs_style_1 .sc_tabs_titles li a {
   color: #212121;
@@ -2660,7 +2660,7 @@ button,
 .scheme_original .sc_tabs.sc_tabs_style_1 .sc_tabs_titles li.ui-state-active a,
 .scheme_original .sc_tabs.sc_tabs_style_1 .sc_tabs_titles li.sc_tabs_active a,
 .scheme_original .sc_tabs.sc_tabs_style_1 .sc_tabs_titles li a:hover {
-  color: #ffffff;
+  color:  rgba(255,255,255,0.35);
 }
 .scheme_original .sc_tabs.sc_tabs_style_1 .sc_tabs_titles li.ui-state-active a,
 .scheme_original .sc_tabs.sc_tabs_style_1 .sc_tabs_titles li.sc_tabs_active a,

@@ -855,7 +855,7 @@ body:not(.top_panel_fixed) .top_panel_position_over.top_panel_wrap_inner,
 body:not(.top_panel_fixed) .top_panel_position_over .top_panel_top,
 body:not(.top_panel_fixed) .top_panel_position_over .top_panel_middle,
 body:not(.top_panel_fixed) .top_panel_position_over .top_panel_bottom {
-	background: none !important;
+	    background: rgba(29, 198, 223, 0.22);
 }
 
 
@@ -908,6 +908,7 @@ body:not(.top_panel_fixed) .top_panel_position_over .top_panel_bottom {
 .top_panel_style_5 .top_panel_top_contact_area{
     font-size: 0.9286em;
     margin: 0.9231em 0 0.7692em;
+        color: #fff;
 }
 .top_panel_top_open_hours {
 	float:left;
@@ -1471,10 +1472,10 @@ body .top_panel_style_5 .top_panel_position_over .top_panel_top{
     color: #90a5b0;
 }
 .top_panel_style_5 .top_panel_top_contact_area a{
-    color: #90a5b0 !important;
+    color: #ffffff !important;
 }
 .top_panel_style_5 .top_panel_top_contact_area a:hover{
-    color: #ffffff !important;
+    color: #1DC6DF !important;
 }
 
 
@@ -6643,7 +6644,7 @@ body .booked-modal .booked-form{
 
 /*** About Us Page ***/
 .greeting_section_bg{
-	background: url(http://placehold.it/1920x579) !important;
+	background: url(/images/menu/pastor-1920-579.jpg) !important;
 	background-position: 0 0 !important;
 	background-repeat: no-repeat !important;
 }
@@ -6683,3 +6684,16 @@ body .booked-modal .booked-form{
 
 /*** Post Audio ***/
 .post_audio_bg{background-image: url(http://placehold.it/768x144);}
+
+
+div.form_wrap.center{
+	text-align: center;
+}
+
+input#log, input#password{
+	width: 40%;
+}
+
+.scheme_original .widget_area_inner .widget_text a:not(.sc_button), .scheme_original .widget_area_inner .post_info a .social_footer{
+	color: #fff;
+}

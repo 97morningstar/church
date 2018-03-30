@@ -6,24 +6,24 @@
     NEWLIFE_CHURCH_STORAGE['theme_skin_bg_color'] = '#FFFFFF';
 
     NEWLIFE_CHURCH_STORAGE["strings"] = {
-        name_empty: "The name can&#039;t be empty",
-        name_long: "Too long name",
-        email_empty: "Too short (or empty) email address",
-        email_long: "Too long email address",
-        email_not_valid: "Invalid email address",
-        subject_empty: "The subject can&#039;t be empty",
-        subject_long: "Too long subject",
-        text_empty: "The message text can&#039;t be empty",
-        text_long: "Too long message text",
-        send_complete: "Send message complete!",
-        send_error: "Transmit failed!",
-        login_empty: "The Login field can&#039;t be empty",
-        login_long: "Too long login field",
-        login_success: "Login success! The page will be reloaded in 3 sec.",
-        login_failed: "Login failed!",
-        password_empty: "The password can&#039;t be empty and shorter then 4 characters",
-        password_long: "Too long password",
-        password_not_equal: "The passwords in both fields are not equal"
+        name_empty: "El nombre no puede estar vacío",
+        name_long: "El nombre es muy largo",
+        email_empty: "Correo electrónico muy corto o vacío",
+        email_long: "Correo electrónico muy largo",
+        email_not_valid: "Correo electrónico inválido",
+        subject_empty: "El asunto no puede estar vacío",
+        subject_long: "El asunto es muy largo",
+        text_empty: "El mensaje no puede estar vacío",
+        text_long: "El mensaje es muy largo",
+        send_complete: "¡Enviaste tu mensaje!",
+        send_error: "Envío fallido",
+        login_empty: "El usuario no puede estar vacío",
+        login_long: "El usuario es muy largo",
+        login_success: "Login completado",
+        login_failed: "Login fallido",
+        password_empty: "La contraseña es muy corta o está vacía",
+        password_long: "La contraseña es muy larga",
+        password_not_equal: "Las contraseñas no son iguales"
     };
 
     NEWLIFE_CHURCH_STORAGE['ajax_url'] = '#';
@@ -87,13 +87,13 @@
 
     var tribe_bootstrap_datepicker_strings = {
         "dates": {
-            "days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
-            "daysShort": ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
-            "daysMin": ["S", "M", "T", "W", "T", "F", "S", "S"],
-            "months": ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
-            "monthsShort": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
-            "clear": "Clear",
-            "today": "Today"
+            "days": ["Domingo", "Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado", "Domingo"],
+            "daysShort": ["Dom", "Lun", "Mar", "Mie", "Jue", "Vie", "Sab", "Dom"],
+            "daysMin": ["D", "L", "M", "M", "J", "V", "S", "D"],
+            "months": ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"],
+            "monthsShort": ["Ene", "Feb", "Mar", "Abr", "May", "Jun", "Jul", "Ago", "Sep", "Oct", "Nov", "Dic"],
+            "clear": "Limpiar",
+            "today": "Hoy"
         }
     };
 
@@ -107,13 +107,13 @@
         jQuery.datepicker.setDefaults({
             "closeText": "Close",
             "currentText": "Today",
-            "monthNames": ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
-            "monthNamesShort": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
-            "nextText": "Next",
-            "prevText": "Previous",
-            "dayNames": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
-            "dayNamesShort": ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"],
-            "dayNamesMin": ["S", "M", "T", "W", "T", "F", "S"],
+            "monthNames": ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"],
+            "monthNamesShort": ["Ene", "Feb", "Mar", "Abr", "May", "Jun", "Jul", "Ago", "Sep", "Oct", "Nov", "Dic"],
+            "nextText": "Próximo",
+            "prevText": "Anterior",
+            "dayNames": ["Domingo", "Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado", "Domingo"],
+            "dayNamesShort": ["Dom", "Lun", "Mar", "Mie", "Jue", "Vie", "Sab", "Dom"],
+            "dayNamesMin": ["D", "L", "M", "M", "J", "V", "S", "D"],
             "dateFormat": "DD, MM d, yy",
             "firstDay": 1,
             "isRTL": false
