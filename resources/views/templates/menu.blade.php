@@ -202,7 +202,7 @@
                                     <div class="content_wrap">
                                         <div class="columns_wrap sc_columns columns_nofluid sc_columns_count_2 padding_top_6em">
                                             <div class="column-1_2 sc_column_item sc_column_item_1 odd first">
-                                                <h2 style="color: #fff;" class="sc_title sc_title_regular margin_top_null margin_bottom_0_5em">"La Iglesia de Jesucristo es la embajada de Dios en la Tierra"</h2>
+                                                <h2 style="color: #fff;" class="sc_title sc_title_regular margin_top_null margin_bottom_0_5em">"Nuestra visión es llegar a ser La Iglesia de Jesucristo que nuestra Comunidad necesita para glorificar a Dios en cumplimiento de La Gran Comisión."</h2>
                                                 <div class="sc_section font_size_1_7143em line_height_1_3em font_weight_700">
                                                     <div class="sc_section_inner">
                                                         <p style="color: #fff;" class="margin_bottom_null">Isaias Martinez Jardines</p>
@@ -218,10 +218,16 @@
                                                                 </a>
                                                             </div>
                                                             <div class="sc_socials_item">
-                                                                <a href="https://www.facebook.com/profile.php?id=100018267361059" target="_blank" class="social_icons social_facebook">
+                                                                <a href="https://www.facebook.com/ibhconroe" target="_blank" class="social_icons social_facebook">
                                                                     <span class="icon-facebook"></span>
                                                                 </a>
                                                             </div>
+                                                              <div class="sc_socials_item">
+                                                                <a href="tel:281 854 7133" target="_blank" class="social_icons ">
+                                                                    <span class="icon-phone"></span>
+                                                                </a>
+                                                            </div>
+
                                                         </div>
                                                     </div>
                                                 </div>

@@ -55,6 +55,7 @@
                                 <ul class="">
                                   <li><a href="http://www.biblia.es/reina-valera-1960.php" target="_blank">Biblia Online</a></li>
                                   <li><a href="https://calendar.google.com/calendar/b/1?cid=aWJoY29ucm9lQGdtYWlsLmNvbQ" target="_blank"></span> Calendario</a></li>
+                                  <li><a href="/forms/17_10_03 Carta 06 Planilla General de Membrecia.pdf" target="_blank">Formulario de membresía</a></li>
                                 </ul>
                             </aside><!-- /: Instagram --><!-- Widget: Recent Comments --><aside class="column-1_5">
                                 <h5 class="widget_title">Contáctanos</h5>
