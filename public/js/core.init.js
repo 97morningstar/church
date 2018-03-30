@@ -1724,8 +1724,9 @@ function newlife_church_registration_validate(form) {
 }
 
 
-// Contact form handlers
-function newlife_church_sc_form_validate(form){
+// Contact form handlers/*
+/*
+function newlife_church_sc_form_validate(form){/
 	"use strict";
 	var url = form.attr('action');
 	if (url == '') return false;
@@ -1797,4 +1798,4 @@ function newlife_church_sc_form_validate(form){
 		});
 	}
 	return !error;
-}
+}*/

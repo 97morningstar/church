@@ -171,53 +171,7 @@ function newlife_church_sc_init(container) {
 	}
 
 	// Emailer form
-	if (container.find('.sc_emailer:not(.inited)').length > 0) {
-		container.find(".sc_emailer:not(.inited)")
-			.addClass('inited')
-			.on('click', '.sc_emailer_button', function(e) {
-				"use strict";
-				var form = jQuery(this).parents('form');
-				var parent = jQuery(this).parents('.sc_emailer');
-				if (parent.hasClass('sc_emailer_opened')) {
-					if (form.length>0 && form.find('input').val()!='') {
-						var group = jQuery(this).data('group');
-						var email = form.find('input').val();
-						var regexp = new RegExp(NEWLIFE_CHURCH_STORAGE['email_mask']);
-						if (!regexp.test(email)) {
-							form.find('input').get(0).focus();
-							newlife_church_message_warning(NEWLIFE_CHURCH_STORAGE['strings']['email_not_valid']);
-						} else {
-							jQuery.post(NEWLIFE_CHURCH_STORAGE['ajax_url'], {
-								action: 'emailer_submit',
-								nonce: NEWLIFE_CHURCH_STORAGE['ajax_nonce'],
-								group: group,
-								email: email
-							}).done(function(response) {
-								"use strict";
-								var rez = {};
-								try {
-									rez = JSON.parse(response);
-								} catch (e) {
-									rez = { error: NEWLIFE_CHURCH_STORAGE['ajax_error'] };
-									console.log(response);
-								}
-								if (rez.error === '') {
-									newlife_church_message_info(NEWLIFE_CHURCH_STORAGE['strings']['email_confirm'].replace('%s', email));
-									form.find('input').val('');
-								} else {
-									newlife_church_message_warning(rez.error);
-								}
-							});
-						}
-					} else
-						form.get(0).submit();
-				} else {
-					parent.addClass('sc_emailer_opened');
-				}
-				e.preventDefault();
-				return false;
-			});
-	}
+
 	
 	// Googlemap init
 	if (container.find('.sc_googlemap:not(.inited)').length > 0) {

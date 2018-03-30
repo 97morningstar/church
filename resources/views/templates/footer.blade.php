@@ -18,17 +18,17 @@
                                         
                                                 <div class="sc_socials sc_socials_type_icons sc_socials_shape_round sc_socials_size_tiny social_footer">
                                                             <div class="sc_socials_item">
-                                                                <a href="#" target="_blank" class="social_icons social_twitter">
+                                                                <a href="https://twitter.com/ibhconroe" target="_blank" class="social_icons social_twitter">
                                                                     <span class="icon-twitter"></span>
                                                                 </a>
                                                             </div>
                                                             <div class="sc_socials_item">
-                                                                <a href="#" target="_blank" class="social_icons social_mail">
+                                                                <a href="mailto:ibhconroe@gmail.com" target="_blank" class="social_icons social_mail">
                                                                     <span class="icon-mail"></span>
                                                                 </a>
                                                             </div>
                                                             <div class="sc_socials_item">
-                                                                <a href="#" target="_blank" class="social_icons social_facebook">
+                                                                <a href="https://www.facebook.com/ibhconroe/" target="_blank" class="social_icons social_facebook">
                                                                     <span class="icon-facebook"></span>
                                                                 </a>
                                                             </div>
@@ -54,12 +54,12 @@
                                 <h5 class="widget_title">Recursos</h5>
                                 <ul class="">
                                   <li><a href="http://www.biblia.es/reina-valera-1960.php" target="_blank">Biblia Online</a></li>
-                                  <li><a href="#"></span> Calendario</a></li>
+                                  <li><a href="https://calendar.google.com/calendar/b/1?cid=aWJoY29ucm9lQGdtYWlsLmNvbQ" target="_blank"></span> Calendario</a></li>
                                 </ul>
                             </aside><!-- /: Instagram --><!-- Widget: Recent Comments --><aside class="column-1_5">
                                 <h5 class="widget_title">Contáctanos</h5>
                                 <ul>
-                                    <li><a href="/oracion">Pedir Oración</a></li>
+                                    <li><a href="/contactos">Pedir Oración</a></li>
                                    <li><a href="/contactos">Escríbenos</a></li>
                                 </ul>
                             </aside>
@@ -72,7 +72,8 @@
                 <div class="copyright_wrap copyright_style_text scheme_original">
                     <div class="copyright_wrap_inner">
                         <div class="content_wrap">
-                            <div class="copyright_text">Iglesia Bautista Hispana de Conroe All Rights Reserved <a href="#">Terms of Use</a> and <a href="#">Privacy Policy</a>
+                            <div class="copyright_text">Iglesia Bautista Hispana de Conroe
+                                <p class="">&lt/&gt with <span style="color:#FF0000">&lt;3</span> by <a href="https://github.com/97morningstar" target="_blank">Elisa Martinez</a></p>
                             </div>
                         </div>
                     </div>

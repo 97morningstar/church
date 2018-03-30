@@ -60,6 +60,7 @@ Route::get('/lideres', function(){
 	return view('layout.lideres');
 });
 
+Route::get('/contactos', ['as' => 'contacto', 'uses' => 'ContactController@index']);
 
 
 Route::get('/galeria', function(){
@@ -80,3 +81,5 @@ Route::post('/panel/store_event', ['as' => 'panel.store_event', 'uses' => 'Event
 Route::get('/panel/event/{id}/edit', ['as' => 'panel.event_edit', 'uses' => 'EventsController@edit']);
 Route::put('/panel/event/{id}', ['as' => 'panel.event_update', 'uses' => 'EventsController@update']);
 Route::delete('/panel/event/{id}', ['as' => 'panel.event_destroy', 'uses' => 'EventsController@destroy']);
+
+Route::post('/contactos/store', ['as' => 'contacto.store', 'uses' => 'ContactController@store']);

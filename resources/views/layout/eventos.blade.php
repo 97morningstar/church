@@ -24,13 +24,13 @@
  @section('pop')
 
                 <div class="top_panel_title top_panel_style_3 title_present breadcrumbs_present scheme_original">
-                    <div class="top_panel_title_inner top_panel_inner_style_3 breadcrumbs_block_bg3">
+                    <div style="background-image: url(/images/o/pp.jpg);"  class="top_panel_title_inner top_panel_inner_style_3 breadcrumbs_block_bg3">
                         <div class="content_wrap">
-                            <h1 class="page_title">Próximos Eventos</h1>
-                            <div class="breadcrumbs">
-                                <a class="breadcrumbs_item home" href="index.html">Menú</a>
+                            <h1 class="page_title" style="color: #000;">Próximos Eventos</h1>
+                            <div class="breadcrumbs" >
+                                <a class="breadcrumbs_item home" href="index.html" style="color: #000;">Menú</a>
                                 <span class="breadcrumbs_delimiter"></span>
-                                <span class="breadcrumbs_item current">Todos los eventos</span>
+                                <span class="breadcrumbs_item current" style="color: #000;">Todos los eventos</span>
                             </div>
                         </div>
                     </div>
@@ -95,6 +95,215 @@
                                                     <!-- List Title -->
                                                     <h2 class="tribe-events-page-title">Próximos eventos</h2>
                                                     <!-- Notices -->
+
+
+                                                    <ul class="event-list large" style="list-style: none;">
+                                    <li>
+                                        <h3 class="event-title"><a href="#">Reunión de primavera en la Iglesia Bautista de Tallowood</a></h3>
+                                        <span class="event-meta">
+                                            <span><i class="fa fa-calendar"></i> 7 Febrero 2018</span>
+                                            <span><i class="fa fa-map-marker"></i> Iglesia Bautista de Tallowood</span>
+                                        </span>
+                                        <p>Balance del trabajo de la iglesia en los primeros 6 meses. </p>
+                                        {{--<a href="#" class="button">Unirte</a>--}}
+                                        <a href="/contactos" class="button secondary">Haz una pregunta</a>
+                                     
+                                    </li>
+
+                                    <li>
+                                        <h3 class="event-title"><a href="#">Primer convivio en el barrio de Las Trailas</a></h3>
+                                        <span class="event-meta">
+                                            <span><i class="fa fa-calendar"></i> 18 marzo 2018</span>
+                                            <span><i class="fa fa-map-marker"></i> Las Trailas</span>
+                                        </span>
+                                        <p>Tiempo de esparcimiento con todas las familias de esa comunidad a fin de mostrarles confianza, ayudarles en sus necesidades y promocionar el trabajo de la Iglesia</p>
+                                        {{--<a href="#" class="button">Unirte</a>--}}
+                                        <a href="/contactos" class="button secondary">Haz una pregunta</a>
+                                   
+                                    </li>
+                                    <li>
+                                        <h3 class="event-title"><a href="#">Semana de pasiones</a></h3>
+                                        <span class="event-meta">
+                                            <span><i class="fa fa-calendar"></i> 25 de Marzo al 1 de Abril 2018</span>
+                                            <span><i class="fa fa-map-marker"></i> Templo</span>
+                                        </span>
+                                        <p>Tiempo de recordatorio y celebración de la muerte y resurrección de Jesucristo. 
+                                            <br>
+                                        
+                                                <p>Domingo 25. &nbsp&nbsp Domingo de Ramos. Escuela Dominical especial por la entrada triunfal de Jesús en Jerusalén. </p>
+                                                <p>Viernes 23.  &nbsp&nbsp  Sermón de las 7 palabras. </p>
+                                                <p>Domingo 1.   &nbsp&nbsp      Escuela Dominical especial por el día de resurrección. </p>
+                                            
+                                        </p>
+                                        {{--<a href="#" class="button">Unirte</a>--}}
+                                        <a href="/contactos" class="button secondary">Haz una pregunta</a>
+                                   
+                                    </li>
+                                    <li>
+                                        <h3 class="event-title"><a href="#">Domingo de resurrección</a></h3>
+                                        <span class="event-meta">
+                                            <span><i class="fa fa-calendar"></i> 1 de Abril 2018</span>
+                                            <span><i class="fa fa-map-marker"></i> Templo</span>
+                                        </span>
+                                        <p>Programa especial. </p>
+                                        {{--<a href="#" class="button">Unirte</a>--}}
+                                        <a href="/contactos" class="button secondary">Haz una pregunta</a>
+                                     
+                                    </li>
+                                    <li>
+                                        <h3 class="event-title"><a href="#">Segundo convivio</a></h3>
+                                        <span class="event-meta">
+                                            <span><i class="fa fa-calendar"></i>  8 de Abril 2018</span>
+                                            <span><i class="fa fa-map-marker"></i> Casa de hospedaje de Paulino y Blanca Vadillo</span>
+                                        </span>
+                                        <p>Tiempo de esparcimiento con todas las perdonas de esa casa a fin de mostrarles confianza, ayudarles en sus necesidades y promocionar el trabajo de la iglesia. </p>
+                                    {{--<a href="#" class="button">Unirte</a>--}}
+                                        <a href="/contactos" class="button secondary">Haz una pregunta</a>
+                                    
+                                    </li>
+                                    <li>
+                                        <h3 class="event-title"><a href="#">Ciclo de edificación del Hogar y la Familia.</a></h3>
+                                        <span class="event-meta">
+                                            <span><i class="fa fa-calendar"></i> 8 de Mayo al 17 de Junio 2018</span>
+                                            <span><i class="fa fa-map-marker"></i></span>
+                                        </span>
+                                        <p></p>
+                                        {{--<a href="#" class="button">Unirte</a>--}}
+                                        <a href="/contactos" class="button secondary">Haz una pregunta</a>
+                                     
+                                    </li>
+                                    <li>
+                                        <h3 class="event-title"><a href="#">Día de las madres</a></h3>
+                                        <span class="event-meta">
+                                            <span><i class="fa fa-calendar"></i> 8 de Mayo 2018</span>
+                                            <span><i class="fa fa-map-marker"></i> Templo</span>
+                                        </span>
+                                        <p>Celebración especial para homenajear a nuestras madres. </p>
+                                        {{--<a href="#" class="button">Unirte</a>--}}
+                                        <a href="/contactos" class="button secondary">Haz una pregunta</a>
+                                     
+                                    </li>
+                                    <li>
+                                        <h3 class="event-title"><a href="#">Segunda reunión en la Iglesia Bautista de Tallowood</a></h3>
+                                        <span class="event-meta">
+                                            <span><i class="fa fa-calendar"></i> 13 de Junio 2018</span>
+                                            <span><i class="fa fa-map-marker"></i> Iglesia Bautista de Tallowood</span>
+                                        </span>
+                                        <p>Balance del trabajo de la iglesia en los primeros 9 meses. </p>
+                                        {{--<a href="#" class="button">Unirte</a>--}}
+                                        <a href="/contactos" class="button secondary">Haz una pregunta</a>
+                                      
+                                    </li>
+                                    <li>
+                                        <h3 class="event-title"><a href="#">Día de los Padres</a></h3>
+                                        <span class="event-meta">
+                                            <span><i class="fa fa-calendar"></i> 17 de Junio 2018</span>
+                                            <span><i class="fa fa-map-marker"></i> Templo</span>
+                                        </span>
+                                        <p>Celebración especial para homenajear a nuestros padres. </p>
+                                        {{--<a href="#" class="button">Unirte</a>--}}
+                                        <a href="/contactos" class="button secondary">Haz una pregunta</a>
+                                      
+                                    </li>                                   
+                                    <li>
+                                        <h3 class="event-title"><a href="#">Escuela de Verano. </a></h3>
+                                        <span class="event-meta">
+                                            <span><i class="fa fa-calendar"></i> 9 al 15 de Julio 2018</span>
+                                            <span><i class="fa fa-map-marker"></i> Templo</span>
+                                        </span>
+                                        <p>Programa especial con nuestros niños con la participación de toda la iglesia. </p>
+                                        {{--<a href="#" class="button">Unirte</a>--}}
+                                        <a href="/contactos" class="button secondary">Haz una pregunta</a>
+                                       
+                                    </li>                               
+                                    <li>
+                                        <h3 class="event-title"><a href="#">Programa de Verano. </a></h3>
+                                        <span class="event-meta">
+                                            <span><i class="fa fa-calendar"></i> Agosto 2018</span>
+                                            <span><i class="fa fa-map-marker"></i> Templo</span>
+                                        </span>
+                                        <p> Diferentes actividades variadas que incluyen celebración de escuelas dominical en lugares fuera del santuario. </p>
+                                        {{--<a href="#" class="button">Unirte</a>--}}
+                                        <a href="/contactos" class="button secondary">Haz una pregunta</a>
+                                      
+                                    </li>
+                                    <li>
+                                        <h3 class="event-title"><a href="#">Primer aniversario</a></h3>
+                                        <span class="event-meta">
+                                            <span><i class="fa fa-calendar"></i> 16 de Septiembre 2018</span>
+                                            <span><i class="fa fa-map-marker"></i> Templo</span>
+                                        </span>
+                                        <p> Escuela dominical especial por un año de trabajo de la iglesia. </p>
+                                        {{--<a href="#" class="button">Unirte</a>--}}
+                                        <a href="/contactos" class="button secondary">Haz una pregunta</a>
+                                    
+                                    </li>
+
+
+
+                                        <li>
+                                        <h3 class="event-title"><a href="#">Día de la Biblia</a></h3>
+                                        <span class="event-meta">
+                                            <span><i class="fa fa-calendar"></i> 2 de Diciembre 2018</span>
+                                            <span><i class="fa fa-map-marker"></i> Templo</span>
+                                        </span>
+                                        <p> Escuela Dominical especial. </p>
+                                        {{--<a href="#" class="button">Unirte</a>--}}
+                                        <a href="/contactos" class="button secondary">Haz una pregunta</a>
+                                      
+                                    </li>
+
+                                        <li>
+                                        <h3 class="event-title"><a href="#">Actividad especial por la apertura de la Navidad. </a></h3>
+                                        <span class="event-meta">
+                                            <span><i class="fa fa-calendar"></i> 2 de Diciembre 2018</span>
+                                            <span><i class="fa fa-map-marker"></i> Templo</span>
+                                        </span>
+                                        <p></p>
+                                        {{--<a href="#" class="button">Unirte</a>--}}
+                                        <a href="/contactos" class="button secondary">Haz una pregunta</a>
+                                     
+                                    </li>
+
+                                        <li>
+                                        <h3 class="event-title"><a href="#">Noche buena</a></h3>
+                                        <span class="event-meta">
+                                            <span><i class="fa fa-calendar"></i> 24 de Diciembre 2018</span>
+                                            <span><i class="fa fa-map-marker"></i> Templo</span>
+                                        </span>
+                                        <p>Convivio conjunto con toda la Iglesia</p>
+                                        {{--<a href="#" class="button">Unirte</a>--}}
+                                        <a href="/contactos" class="button secondary">Haz una pregunta</a>
+                                       
+                                    </li>
+
+                                        <li>
+                                        <h3 class="event-title"><a href="#">Celebración de la Navidad.</a></h3>
+                                        <span class="event-meta">
+                                            <span><i class="fa fa-calendar"></i> 25 de Diciembre 2018</span>
+                                            <span><i class="fa fa-map-marker"></i> Templo</span>
+                                        </span>
+                                        <p></p>
+                                        {{--<a href="#" class="button">Unirte</a>--}}
+                                        <a href="/contactos" class="button secondary">Haz una pregunta</a>
+                                
+                                    </li>
+
+                                        <li>
+                                        <h3 class="event-title"><a href="#">Celebración de fin de año. </a></h3>
+                                        <span class="event-meta">
+                                            <span><i class="fa fa-calendar"></i> 31 de Diciembre 2018</span>
+                                            <span><i class="fa fa-map-marker"></i> Templo</span>
+                                        </span>
+                                        <p></p>
+                                        {{--<a href="#" class="button">Unirte</a>--}}
+                                        <a href="/contactos" class="button secondary">Haz una pregunta</a>
+                                    
+                                    </li>
+                                </ul>
+
+
+
                                                     <!-- List Header -->
                                                     <div id="tribe-events-header" data-title="Upcoming Events &#8211; Events &#8211; New Life Church" data-startofweek="1" data-view="list" data-baseurl="#">
                                                         <!-- Header Navigation -->

@@ -134,7 +134,9 @@
 
         <script type="text/javascript" src="js/template.init.min.js"></script>
 
-        <script type="text/javascript" src="js/shortcodes.min.js"></script>
+   {{--     <script type="text/javascript" src="js/shortcodes.min.js"></script>   --}}
+         <script type="text/javascript" src="js/shortcodes.min.js"></script> 
+
         <script type="text/javascript" src="js/core.messages.min.js"></script>
         <script type="text/javascript" src="js/vendor/magnific/jquery.magnific-popup.min.js"></script>
 
@@ -143,6 +145,10 @@
         <script type="text/javascript" src="js/vendor/swiper/swiper.min.js"></script>
         <script type="text/javascript" src="js/vendor/isotope/dist/isotope.pkgd.min.js"></script>
         <script type="text/javascript" src="js/jquery/ui/accordion.min.js"></script>
+
+
+
+
 
     </body>
 

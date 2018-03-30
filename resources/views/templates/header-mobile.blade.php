@@ -2,9 +2,7 @@
                     <div class="content_wrap">
                         <div class="menu_button icon-menu"></div>
                         <div class="logo">
-                            <a href="index.html">
-                                <img src="http://placehold.it/122x60" class="logo_main" alt="">
-                            </a>
+                        
                         </div>
                     </div>
                     <div class="side_wrap">
@@ -123,13 +121,11 @@
                                             <!-- /Gallery -->
                                             <!-- Blog -->
                                             <li class="menu-item">
-                                                <a href="#">Contactos</a>
+                                                <a href="/contactos">Contactos</a>
                                             </li>
                                             <!-- /Blog -->
                                             <!-- Donate -->
-                                            <li class="donate-btn menu-item">
-                                                <a href="#">Dar</a>
-                                            </li>
+                                          
                                             <!-- /Donate -->
                                         </ul>
                             </nav>

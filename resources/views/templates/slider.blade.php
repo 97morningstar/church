@@ -33,9 +33,7 @@
                                     <div class="tp-caption tp-resizeme slide_title_line-3" id="slide-8-layer-7" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['top','top','top','top']" data-voffset="['593','287','352','267']" data-fontsize="['60','51','60','44']" data-lineheight="['70','70','70','50']" data-width="['none','none','580','433']" data-height="['none','none','142','none']" data-whitespace="['nowrap','nowrap','normal','normal']" data-transform_idle="o:1;" data-transform_in="opacity:0;s:730;e:Power4.easeInOut;" data-transform_out="opacity:0;s:300;" data-start="4000" data-splitin="chars" data-splitout="none" data-responsive_offset="on" data-elementdelay="0.05">Iglesia Bautista Hispana de Conroe</div>
                                     <!-- LAYER NR. 7 -->
                                     <div class="tp-caption tp-resizeme slide_button_2" id="slide-8-layer-8" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['top','top','top','top']" data-voffset="['701','373','551','405']" data-width="300" data-height="53" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="opacity:0;s:1000;e:Power2.easeInOut;" data-transform_out="opacity:0;s:300;" data-start="6000" data-splitin="none" data-splitout="none" data-responsive_offset="on">
-                                        <div class="text_align_center">
-                                            <a href="#" class="sc_button sc_button_square sc_button_style_filled sc_button_color_style_2 sc_button_size_large">Más información</a>
-                                        </div>
+                                        
                                     </div>
                                 </li>
                             </ul>

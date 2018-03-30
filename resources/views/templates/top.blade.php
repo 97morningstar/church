@@ -201,13 +201,11 @@
                                             <!-- /Gallery -->
                                             <!-- Blog -->
                                             <li class="menu-item">
-                                                <a href="#">Contactos</a>
+                                                <a href="/contactos">Contactos</a>
                                             </li>
                                             <!-- /Blog -->
                                             <!-- Donate -->
-                                            <li class="donate-btn menu-item">
-                                                <a href="#">Dar</a>
-                                            </li>
+                                          
                                             <!-- /Donate -->
                                         </ul>
                                     </nav>

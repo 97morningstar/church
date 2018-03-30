@@ -31,7 +31,7 @@
                                         <div class="content_wrap">
                                             <p>
                                                 <strong>
-                                                    <a href="#">¿Buscas un lugar donde congregarte?</a>
+                                                    <a href="/contactos">¿Buscas un lugar donde congregarte?</a>
                                                 </strong>
                                                 Nuestra Iglesia abre sus puertas para todos aquellos que escuchen la voz de Dios para salvación.
                                             </p>
@@ -46,7 +46,7 @@
                                         <div class="columns_wrap">
                                           <div class="column-1_2 sc_column_item sc_column_item_1 odd first">
                                             <figure class="sc_image sc_image_shape_square">
-                                                <a href="service-single.html">
+                                                <a href="/horarios">
                                                     <img src="/images/menu/received_268536743658288.jpeg" alt="" />
                                                 </a>
                                             </figure>
@@ -89,7 +89,7 @@
                                                                 <div class="sc_services_item_description">
                                                                    <h5 class="sc_title sc_title_regular margin_top_null">Ser La Iglesia de Jesucristo que nuestra Comunidad necesita para glorificar a Dios en cumplimiento de La Gran Comisión.</h5>
                                                                     <p>“Abre mis ojos, y miraré las maravillas de tu ley” Salmos 119:18</p>
-                                                                    <a href="#" class="sc_button sc_button_square sc_button_style_filled sc_button_color_style_2 sc_button_size_large readmore">Leer más</a>
+                                                                    <a href="/vision" class="sc_button sc_button_square sc_button_style_filled sc_button_color_style_2 sc_button_size_large readmore">Leer más</a>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -103,7 +103,7 @@
                                                                 <div class="sc_services_item_description">
                                                                     <h5 class="sc_title sc_title_regular margin_top_null"></h5>
                                                                     <p>"Y nosotros, pueblo tuyo, y ovejas de tu prado, Te alabaremos para siempre; De generación en generación cantaremos tus alabanzas." Salmos 79:13</p>
-                                                                    <a href="#" class="sc_button sc_button_square sc_button_style_filled sc_button_color_style_2 sc_button_size_large readmore">Leer más</a>
+                                                                    <a href="/horarios" class="sc_button sc_button_square sc_button_style_filled sc_button_color_style_2 sc_button_size_large readmore">Leer más</a>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -117,7 +117,7 @@
                                                                 <div class="sc_services_item_description">
                                                                     <h5 class="sc_title sc_title_regular margin_top_null">Eventos en el año 2018. Ver programa de la Convención de Texas.</h5>
                                                                     <p>"Y el ángel me dijo: Escribe: Bienaventurados los que son llamados a la cena de las bodas del Cordero. Y me dijo: Estas son palabras verdaderas de Dios." Apocalipsis 19:9</p>
-                                                                    <a href="#" class="sc_button sc_button_square sc_button_style_filled sc_button_color_style_2 sc_button_size_large readmore">Leer más</a>
+                                                                    <a href="/eventos" class="sc_button sc_button_square sc_button_style_filled sc_button_color_style_2 sc_button_size_large readmore">Leer más</a>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -141,12 +141,12 @@
                                                         <div class="post_content">
                                                             <div class="post_content_wrap">
                                                                 <h4 class="post_title">
-                                                                    <a href="#">Misión</a>
+                                                                    <a href="/mision">Misión</a>
                                                                 </h4>
                                                             </div>
                                                             <div class="post_featured">
                                                                 <div class="post_thumb" data-title="Church Mission">
-                                                                    <a class="hover_icon hover_icon_link" href="post-single.html">
+                                                                    <a class="hover_icon hover_icon_link" href="/mision">
                                                                         <img alt="Church Mission" src="/images/4.jpeg">
                                                                     </a>
                                                                 </div>
@@ -158,12 +158,12 @@
                                                         <div class="post_content">
                                                             <div class="post_content_wrap">
                                                                 <h4 class="post_title">
-                                                                    <a href="#">Nuestra Comunidad</a>
+                                                                    <a href="/galeria">Nuestra Comunidad</a>
                                                                 </h4>
                                                             </div>
                                                             <div class="post_featured">
                                                                 <div class="post_thumb" data-title="Our Community">
-                                                                    <a class="hover_icon hover_icon_link" href="post-single.html">
+                                                                    <a class="hover_icon hover_icon_link" href="/galeria">
                                                                         <img alt="Our Community" src="/images/received_268536743658288.jpeg">
                                                                     </a>
                                                                 </div>
@@ -175,12 +175,12 @@
                                                         <div class="post_content">
                                                             <div class="post_content_wrap">
                                                                 <h4 class="post_title">
-                                                                    <a href="#">Únete a Nosotros</a>
+                                                                    <a href="/contactos">Únete a Nosotros</a>
                                                                 </h4>
                                                             </div>
                                                             <div class="post_featured">
                                                                 <div class="post_thumb" data-title="Participate With Us">
-                                                                    <a class="hover_icon hover_icon_link" href="post-single.html">
+                                                                    <a class="hover_icon hover_icon_link" href="/contactos">
                                                                         <img alt="Participate With Us" src="/images/menu/p.jpg">
                                                                     </a>
                                                                 </div>
@@ -190,9 +190,9 @@
                                                 </div>
                                             </div>
                                             <!-- /Post item -->
-                                            <div class="sc_blogger_button sc_item_button">
+                                        {{--  <div class="sc_blogger_button sc_item_button">
                                                 <a href="#" class="sc_button sc_button_square sc_button_style_filled sc_button_color_style_2 sc_button_size_large">Leer Más</a>
-                                            </div>
+                                            </div>--}}
                                         </div>
                                     </div>
                                 </div>
@@ -213,12 +213,12 @@
                                                         <p class="accent1 margin_bottom_small">Pastor la Iglesia Bautista Hispana de Conroe</p>
                                                         <div class="sc_socials sc_socials_type_icons sc_socials_shape_round sc_socials_size_tiny">
                                                             <div class="sc_socials_item">
-                                                                <a href="#" target="_blank" class="social_icons social_mail">
+                                                                <a href="mailto:isaiasmj1966@gmail.com" target="_blank" class="social_icons social_mail">
                                                                     <span class="icon-mail"></span>
                                                                 </a>
                                                             </div>
                                                             <div class="sc_socials_item">
-                                                                <a href="#" target="_blank" class="social_icons social_facebook">
+                                                                <a href="https://www.facebook.com/profile.php?id=100018267361059" target="_blank" class="social_icons social_facebook">
                                                                     <span class="icon-facebook"></span>
                                                                 </a>
                                                             </div>
@@ -260,16 +260,16 @@
                                                             <div class="post_item post_item_colored post_item_colored_1 odd">
                                                                 <div class="post_content isotope_item_content">
                                                                     <div class="post_featured img">
-                                                                        <a href="post-single.html">
+                                                                        <a href="/mensajes/18_04_01 Mensaje de resurrección.pdf" target="_blank">
                                                                             <img alt="Church Mission" src="/images/menu/min-mensaje-116-88-1.jpg">
                                                                         </a>
                                                                     </div>
                                                                     <div class="post_description clearfix">
                                                                         <h5 class="post_title">
-                                                                            <a href="#">Misión de la Iglesia</a>
+                                                                            <a href="/mensajes/18_04_01 Mensaje de resurrección.pdf" target="_blank">Mensaje de resurrección</a>
                                                                         </h5>
                                                                         <div class="post_info">
-                                                                            <span class="post_info_item post_info_date">22 de Marzo del 2018</span>
+                                                                            <span class="post_info_item post_info_date">01 de Abril del 2018</span>
                                                                             <span class="post_info_item post_info_counters">PDF</span>
                                                                         </div>
                                                                     </div>
@@ -282,16 +282,16 @@
                                                             <div class="post_item post_item_colored post_item_colored_1 even">
                                                                 <div class="post_content isotope_item_content">
                                                                     <div class="post_featured img">
-                                                                        <a href="post-single.html">
+                                                                        <a href="/mensajes/18_03_29 Mensaje de las 7 Palabras.pdf" target="_blank">
                                                                             <img alt="Our Community" src="/images/menu/min-mensaje-116-88-2.jpg">
                                                                         </a>
                                                                     </div>
                                                                     <div class="post_description clearfix">
                                                                         <h5 class="post_title">
-                                                                            <a href="#">Nuestra Comunidad</a>
+                                                                            <a href="/mensajes/18_03_29 Mensaje de las 7 Palabras.pdf" target="_blank">Mensaje de las 7 Palabras</a>
                                                                         </h5>
                                                                         <div class="post_info">
-                                                                            <span class="post_info_item post_info_date">17 de Marzo del 2018</span>
+                                                                            <span class="post_info_item post_info_date">29 de Marzo del 2018</span>
                                                                             <span class="post_info_item post_info_counters">PDF</span>
                                                                         </div>
                                                                     </div>
@@ -304,16 +304,16 @@
                                                             <div class="post_item post_item_colored post_item_colored_1 odd last">
                                                                 <div class="post_content isotope_item_content">
                                                                     <div class="post_featured img">
-                                                                        <a href="post-single.html">
+                                                                        <a href="/mensajes/18_03_20 La llegada de Jesús a Jerusalén.pdf" target="_blank">
                                                                             <img alt="Participate With Us" src="/images/menu/min-mensaje-116-88-3.jpg">
                                                                         </a>
                                                                     </div>
                                                                     <div class="post_description clearfix">
                                                                         <h5 class="post_title">
-                                                                            <a href="post-single.html">Participa con nosotros</a>
+                                                                            <a href="/mensajes/18_03_20 La llegada de Jesús a Jerusalén.pdf" target="_blank">La llegada de Jesús a Jerusalén</a>
                                                                         </h5>
                                                                         <div class="post_info">
-                                                                            <span class="post_info_item post_info_date">9 de Marzo del 2018</span>
+                                                                            <span class="post_info_item post_info_date">20 de Marzo del 2018</span>
                                                                             <span class="post_info_item post_info_counters">PDF</span>
                                                                         </div>
                                                                     </div>
@@ -336,12 +336,10 @@
                                                                         <span class="sc_events_item_day">25</span>
                                                                     </span>
                                                                     <h6 class="sc_events_item_title">
-                                                                        <a href="event-single.html">SEMANA DE PASIONES</a>
+                                                                        <a href="/eventos">SEMANA DE PASIONES</a>
+                                                                    <span class=""></span>
                                                                     </h6>
-                                                                    <span class="sc_events_item_time"></span>
-                                                                    <span class="sc_events_item_details">
-                                                                        <a href="event-single.html">Detalles</a>
-                                                                    </span>
+                                                                 
                                                                 </div>
                                                                 <!-- /Event item -->
                                                                 <!-- Event item -->
@@ -351,12 +349,10 @@
                                                                         <span class="sc_events_item_day">01</span>
                                                                     </span>
                                                                     <h6 class="sc_events_item_title">
-                                                                        <a href="event-single.html">DOMINGO DE RESURRECCIÓN</a>
-                                                                    </h6>
+                                                                        <a href="/eventos">DOMINGO DE RESURRECCIÓN</a>
                                                                     <span class="sc_events_item_time">10:30 am </span>
-                                                                    <span class="sc_events_item_details">
-                                                                        <a href="event-single.html">Detalles</a>
-                                                                    </span>
+                                                                    </h6>
+                                                                 
                                                                 </div>
                                                                 <!-- /Event item -->
                                                                 <!-- Event item -->
@@ -366,12 +362,10 @@
                                                                         <span class="sc_events_item_day">08</span>
                                                                     </span>
                                                                     <h6 class="sc_events_item_title">
-                                                                        <a href="event-single.html">SEGUNDO CONVIVIO</a>
+                                                                        <a href="/eventos">SEGUNDO CONVIVIO</a>
+                                                                    <span class=""></span>
                                                                     </h6>
-                                                                    <span class="sc_events_item_time"></span>
-                                                                    <span class="sc_events_item_details">
-                                                                        <a href="event-single.html">Detalles</a>
-                                                                    </span>
+                                                                  
                                                                 </div>
                                                                 <!-- /Event item -->
                                                                 <!-- Event item -->
@@ -381,12 +375,10 @@
                                                                         <span class="sc_events_item_day">8</span>
                                                                     </span>
                                                                     <h6 class="sc_events_item_title">
-                                                                        <a href="event-single.html">Empieza el ciclo de Edificación del Hogar y la Familia</a>
-                                                                    </h6>
+                                                                        <a href="/eventos">Empieza el ciclo de Edificación del Hogar y la Familia</a>
                                                                     <span class="sc_events_item_time"></span>
-                                                                    <span class="sc_events_item_details">
-                                                                        <a href="event-single.html">Detalles</a>
-                                                                    </span>
+                                                                    </h6>
+                                                                  
                                                                 </div>
                                                                 <!-- /Event item -->
                                                                 <!-- Event item -->
@@ -396,12 +388,10 @@
                                                                         <span class="sc_events_item_day">8</span>
                                                                     </span>
                                                                     <h6 class="sc_events_item_title">
-                                                                        <a href="event-single.html">Día de las madres</a>
-                                                                    </h6>
+                                                                        <a href="/eventos">Día de las madres</a>
                                                                     <span class="sc_events_item_time">10:30 am</span>
-                                                                    <span class="sc_events_item_details">
-                                                                        <a href="event-single.html">Detalles</a>
-                                                                    </span>
+                                                                    </h6>
+                                                                   
                                                                 </div>
                                                                 <!-- /Event item -->
                                                             </div>
@@ -438,12 +428,12 @@
                                                                 <!-- THE COLORED OVERLAY -->
                                                                 <div class="esg-overlay esg-fade eg-home-2-block-container" data-delay="0"></div>
                                                                 <div class="esg-bottom eg-home-2-block-element-1-a esg-rollleft" data-delay="0.3">
-                                                                    <a class="eg-home-2-block-element-1 esgbox" href="http://placehold.it/2400x1600">
+                                                                    <a class="eg-home-2-block-element-1 esgbox" href="/galeria">
                                                                         <i class="eg-icon-link-ext"></i>
                                                                     </a>
                                                                 </div>
                                                                 <div class="esg-center eg-home-2-block-element-2-a esg-flipup" data-delay="0.1">
-                                                                    <a class="eg-home-2-block-element-2" href="post-single.html" target="_self">Ver más</a>
+                                                                    <a class="eg-home-2-block-element-2" href="/galeria" target="_self">Ver más</a>
                                                                 </div>
                                                             </div>
                                                             <!-- END OF THE CONTENT IN THE ENTRY -->
@@ -464,12 +454,12 @@
                                                                 <!-- THE COLORED OVERLAY -->
                                                                 <div class="esg-overlay esg-fade eg-home-2-block-container" data-delay="0"></div>
                                                                 <div class="esg-bottom eg-home-2-block-element-1-a esg-rollleft" data-delay="0.3">
-                                                                    <a class="eg-home-2-block-element-1 esgbox" href="http://placehold.it/2400x1600">
+                                                                    <a class="eg-home-2-block-element-1 esgbox" href="/galeria">
                                                                         <i class="eg-icon-link-ext"></i>
                                                                     </a>
                                                                 </div>
                                                                 <div class="esg-center eg-home-2-block-element-2-a esg-flipup" data-delay="0.1">
-                                                                    <a class="eg-home-2-block-element-2" href="post-single.html" target="_self">Ver más</a>
+                                                                    <a class="eg-home-2-block-element-2" href="/galeria" target="_self">Ver más</a>
                                                                 </div>
                                                             </div>
                                                             <!-- END OF THE CONTENT IN THE ENTRY -->
@@ -490,12 +480,12 @@
                                                                 <!-- THE COLORED OVERLAY -->
                                                                 <div class="esg-overlay esg-fade eg-home-2-block-container" data-delay="0"></div>
                                                                 <div class="esg-bottom eg-home-2-block-element-1-a esg-rollleft" data-delay="0.3">
-                                                                    <a class="eg-home-2-block-element-1 esgbox" href="http://placehold.it/2400x1600">
+                                                                    <a class="eg-home-2-block-element-1 esgbox" href="/galeria">
                                                                         <i class="eg-icon-link-ext"></i>
                                                                     </a>
                                                                 </div>
                                                                 <div class="esg-center eg-home-2-block-element-2-a esg-flipup" data-delay="0.1">
-                                                                    <a class="eg-home-2-block-element-2" href="post-single.html" target="_self">Ver más</a>
+                                                                    <a class="eg-home-2-block-element-2" href="/galeria" target="_self">Ver más</a>
                                                                 </div>
                                                             </div>
                                                             <!-- END OF THE CONTENT IN THE ENTRY -->
@@ -516,12 +506,12 @@
                                                                 <!-- THE COLORED OVERLAY -->
                                                                 <div class="esg-overlay esg-fade eg-home-2-block-container" data-delay="0"></div>
                                                                 <div class="esg-bottom eg-home-2-block-element-1-a esg-rollleft" data-delay="0.3">
-                                                                    <a class="eg-home-2-block-element-1 esgbox" href="http://placehold.it/2400x1600">
+                                                                    <a class="eg-home-2-block-element-1 esgbox" href="/galeria">
                                                                         <i class="eg-icon-link-ext"></i>
                                                                     </a>
                                                                 </div>
                                                                 <div class="esg-center eg-home-2-block-element-2-a esg-flipup" data-delay="0.1">
-                                                                    <a class="eg-home-2-block-element-2" href="post-single.html" target="_self">Ver más</a>
+                                                                    <a class="eg-home-2-block-element-2" href="/galeria" target="_self">Ver más</a>
                                                                 </div>
                                                             </div>
                                                             <!-- END OF THE CONTENT IN THE ENTRY -->
@@ -542,12 +532,12 @@
                                                                 <!-- THE COLORED OVERLAY -->
                                                                 <div class="esg-overlay esg-fade eg-home-2-block-container" data-delay="0"></div>
                                                                 <div class="esg-bottom eg-home-2-block-element-1-a esg-rollleft" data-delay="0.3">
-                                                                    <a class="eg-home-2-block-element-1 esgbox" href="http://placehold.it/2400x1600">
+                                                                    <a class="eg-home-2-block-element-1 esgbox" href="/galeria">
                                                                         <i class="eg-icon-link-ext"></i>
                                                                     </a>
                                                                 </div>
                                                                 <div class="esg-center eg-home-2-block-element-2-a esg-flipup" data-delay="0.1">
-                                                                    <a class="eg-home-2-block-element-2" href="post-single.html" target="_self">Ver más</a>
+                                                                    <a class="eg-home-2-block-element-2" href="/galeria" target="_self">Ver más</a>
                                                                 </div>
                                                             </div>
                                                             <!-- END OF THE CONTENT IN THE ENTRY -->
@@ -568,12 +558,12 @@
                                                                 <!-- THE COLORED OVERLAY -->
                                                                 <div class="esg-overlay esg-fade eg-home-2-block-container" data-delay="0"></div>
                                                                 <div class="esg-bottom eg-home-2-block-element-1-a esg-rollleft" data-delay="0.3">
-                                                                    <a class="eg-home-2-block-element-1 esgbox" href="http://placehold.it/2400x1600">
+                                                                    <a class="eg-home-2-block-element-1 esgbox" href="/galeria">
                                                                         <i class="eg-icon-link-ext"></i>
                                                                     </a>
                                                                 </div>
                                                                 <div class="esg-center eg-home-2-block-element-2-a esg-flipup" data-delay="0.1">
-                                                                    <a class="eg-home-2-block-element-2" href="post-single.html" target="_self">Ver más</a>
+                                                                    <a class="eg-home-2-block-element-2" href="/galeria" target="_self">Ver más</a>
                                                                 </div>
                                                             </div>
                                                             <!-- END OF THE CONTENT IN THE ENTRY -->
@@ -594,12 +584,12 @@
                                                                 <!-- THE COLORED OVERLAY -->
                                                                 <div class="esg-overlay esg-fade eg-home-2-block-container" data-delay="0"></div>
                                                                 <div class="esg-bottom eg-home-2-block-element-1-a esg-rollleft" data-delay="0.3">
-                                                                    <a class="eg-home-2-block-element-1 esgbox" href="http://placehold.it/2400x1600">
+                                                                    <a class="eg-home-2-block-element-1 esgbox" href="/galeria">
                                                                         <i class="eg-icon-link-ext"></i>
                                                                     </a>
                                                                 </div>
                                                                 <div class="esg-center eg-home-2-block-element-2-a esg-flipup" data-delay="0.1">
-                                                                    <a class="eg-home-2-block-element-2" href="post-single.html" target="_self">Ver más</a>
+                                                                    <a class="eg-home-2-block-element-2" href="/galeria" target="_self">Ver más</a>
                                                                 </div>
                                                             </div>
                                                             <!-- END OF THE CONTENT IN THE ENTRY -->
@@ -620,12 +610,12 @@
                                                                 <!-- THE COLORED OVERLAY -->
                                                                 <div class="esg-overlay esg-fade eg-home-2-block-container" data-delay="0"></div>
                                                                 <div class="esg-bottom eg-home-2-block-element-1-a esg-rollleft" data-delay="0.3">
-                                                                    <a class="eg-home-2-block-element-1 eg-post-1132 esgbox" href="http://placehold.it/2400x1600">
+                                                                    <a class="eg-home-2-block-element-1 eg-post-1132 esgbox" href="/galeria">
                                                                         <i class="eg-icon-link-ext"></i>
                                                                     </a>
                                                                 </div>
                                                                 <div class="esg-center eg-home-2-block-element-2-a esg-flipup" data-delay="0.1">
-                                                                    <a class="eg-home-2-block-element-2" href="post-single.html" target="_self">Ver más</a>
+                                                                    <a class="eg-home-2-block-element-2" href="/galeria" target="_self">Ver más</a>
                                                                 </div>
                                                             </div>
                                                             <!-- END OF THE CONTENT IN THE ENTRY -->
@@ -733,12 +723,12 @@
                                                 <div class="sc_section_inner">
                                                     <h6 class="sc_title sc_title_regular margin_top_null tpl_light margin_bottom_2">Escríbenos</h6>
                                                     <h4 class="sc_title sc_title_regular underline margin_top_null margin_bottom_null tpl_light">
-                                                        <a class="tpl_light" href="#">ibhconroe@gmail.com</a>
+                                                        <a class="tpl_light" href="mailto:ibhconroe@gmail.com" style="font-size: 18px;"> ibhconroe@gmail.com</a>
                                                     </h4>
                                                 </div>
                                             </div>
                                         </div><div class="column-1_4 sc_column_item sc_column_item_4 even text_align_center margin_top_0_5em">
-                                            <a href="#" class="sc_button sc_button_square sc_button_style_border sc_button_color_style_4 sc_button_size_large margin_left_0_0833">Saber Más</a>
+                                            <a href="/contactos" class="sc_button sc_button_square sc_button_style_border sc_button_color_style_4 sc_button_size_large margin_left_0_0833">Saber Más</a>
                                         </div>
                                         </div>
                                     </div>
