@@ -83,3 +83,8 @@ Route::put('/panel/event/{id}', ['as' => 'panel.event_update', 'uses' => 'Events
 Route::delete('/panel/event/{id}', ['as' => 'panel.event_destroy', 'uses' => 'EventsController@destroy']);
 
 Route::post('/contactos/store', ['as' => 'contacto.store', 'uses' => 'ContactController@store']);
+
+
+Route::get('/contactos/googlee6e038e50dee42fb.html', function(){
+	return view('templates.googlee6e038e50dee42fb');
+});
