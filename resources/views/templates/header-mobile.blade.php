@@ -35,16 +35,10 @@
                                                     <li class="menu-item">
                                                         <a href="#">Horarios</a>
                                                     </li>
-                                                    <li class="menu-item menu-item-has-children">
-                                                        <a href="#">Ministerios</a>
-                                                        <ul class="sub-menu">
-                                                            <li class="menu-item">
-                                                                <a href="">Ministerio 1</a>
-                                                            </li>
-                                                            <li class="menu-item">
-                                                                <a href="#">Ministerio 2</a>
-                                                            </li>
-                                                        </ul>
+                                                     <li class="menu-item">Ministerios</li>
+                                                     <li class="menu-item">Ministerio 1</li>
+                                                     <li class="menu-item">Ministerio 1</li>
+                                                  
                                                     </li>
                                                {{--     <li class="menu-item menu-item-has-children">
                                                         <a href="#">Features</a>
