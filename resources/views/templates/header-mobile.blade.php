@@ -2,7 +2,9 @@
                     <div class="content_wrap">
                         <div class="menu_button icon-menu"></div>
                         <div class="logo">
-                        
+                             <a href="/">
+                                <img style="width: 40px !important; " src="/images/logo/logo-color.png" class="logo_main" alt="">
+                            </a>
                         </div>
                     </div>
                     <div class="side_wrap">
