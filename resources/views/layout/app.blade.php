@@ -21,35 +21,35 @@
 		<meta property="og:description" content="Bienvenidos a la Iglesia Bautista Hispana de Conroe,TX. Somos una iglesia cristiana bautista que existe para adorar al creador del universo y para ayudar a la comunidad hispana a tener una mejor relacion con Jesucristo" />
 
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Caveat:400,700|Lato:300,300i,400,400i,700,700i|Raleway:300,300i,400,400i,700,700i&amp;subset=latin-ext">
-        <link rel="stylesheet" href="css/fontello/css/fontello.css" type="text/css" media="all" />
+  
 
-        <link rel="stylesheet" href="js/vendor/revslider/css/settings.css" type="text/css" media="all" />
+  {{--
         <link rel="stylesheet" href="css/plugin.revslider.min.css" type="text/css" media="all" />
-
-     {{--   <link rel="stylesheet" href="css/style.min.css" type="text/css" media="all" />--}}
-        <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
-
+     <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
         <link rel="stylesheet" href="css/core.animation.min.css" type="text/css" media="all" />
-     {{--  <link rel="stylesheet" href="css/shortcodes.min.css" type="text/css" media="all" />
---}} 
-
-        
-   <link rel="stylesheet" href="css/shortcodes.css" type="text/css" media="all" />
-    
-
-        <link rel="stylesheet" href="css/plugin.instagram-widget.min.css" type="text/css" media="all" />
-
+      <link rel="stylesheet" href="css/shortcodes.min.css" type="text/css" media="all" />
+  <link rel="stylesheet" href="css/shortcodes.css" type="text/css" media="all" />
         <link rel="stylesheet" href="js/vendor/essential-grid/css/settings.css" type="text/css" media="all" />
         <link rel="stylesheet" href="js/vendor/essential-grid/css/lightbox.css" type="text/css" media="all" />
         <link rel="stylesheet" href="css/tpl-essential-grids.min.css" type="text/css" media="all" />
-
-      {{--  <link rel="stylesheet" href="css/skin.min.css" type="text/css" media="all" /> --}}
-        <link rel="stylesheet" href="css/skin.css" type="text/css" media="all" /> 
-
+      <link rel="stylesheet" href="css/skin.css" type="text/css" media="all" /> 
         <link rel="stylesheet" href="css/responsive.min.css" type="text/css" media="all" />
 
-        <link rel="stylesheet" href="css/core.messages.min.css" type="text/css" media="all" />
         <link rel="stylesheet" href="js/vendor/magnific/magnific-popup.min.css" type="text/css" media="all" />
+
+
+
+
+
+    --}} 
+
+        <link rel="stylesheet" href="js/vendor/revslider/css/settings.css" type="text/css" media="all" />
+
+     {{--   <link rel="stylesheet" href="css/style.min.css" type="text/css" media="all" />--}}
+      {{--  <link rel="stylesheet" href="css/skin.min.css" type="text/css" media="all" /> --}}
+
+ <link rel="stylesheet" href="css/fontello/css/fontello.css" type="text/css" media="all" />
+
 
         <link rel="icon" href="http://placehold.it/32x32" />
         <link rel="icon" href="http://placehold.it/32x32" />
@@ -61,8 +61,7 @@
 
 
 
-
-
+  <link rel="stylesheet" href="css/alll.css" type="text/css" media="all" />
 
 
         
@@ -101,11 +100,11 @@
         <a href="#" class="scroll_to_top icon-up" title="Scroll to top"></a>
 
         <script type="text/javascript" src="js/jquery/jquery.js"></script>
-        <script type="text/javascript" src="js/jquery/jquery-migrate.min.js"></script>
+
 
         <script type="text/javascript" src="js/vendor/photostack/modernizr.min.js"></script>
-     {{--   <script type="text/javascript" src="js/_main.min.js"></script>   --}}
-        <script type="text/javascript" src="js/_main.js"></script>
+        <script type="text/javascript" src="js/_main.min.js"></script>   
+ 
 
         <script type="text/javascript" src="js/_packed.js"></script>
 
@@ -127,8 +126,8 @@
         <script type="text/javascript" src="js/core.utils.min.js"></script>
 
 
-   {{--     <script type="text/javascript" src="js/core.init.min.js"></script> --}}
-        <script type="text/javascript" src="js/core.init.js"></script>
+        <script type="text/javascript" src="js/core.init.min.js"></script> 
+       
 
 
 
@@ -137,11 +136,10 @@
    {{--     <script type="text/javascript" src="js/shortcodes.min.js"></script>   --}}
          <script type="text/javascript" src="js/shortcodes.min.js"></script> 
 
-        <script type="text/javascript" src="js/core.messages.min.js"></script>
+      
         <script type="text/javascript" src="js/vendor/magnific/jquery.magnific-popup.min.js"></script>
 
-        <script type="text/javascript" src="js/countdown/jquery.plugin.min.js"></script>
-        <script type="text/javascript" src="js/countdown/jquery.countdown.min.js"></script>
+
         <script type="text/javascript" src="js/vendor/swiper/swiper.min.js"></script>
         <script type="text/javascript" src="js/vendor/isotope/dist/isotope.pkgd.min.js"></script>
         <script type="text/javascript" src="js/jquery/ui/accordion.min.js"></script>

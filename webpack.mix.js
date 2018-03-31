@@ -11,5 +11,23 @@ let mix = require('laravel-mix');
  |
  */
 
-mix.js('resources/assets/js/app.js', 'public/js')
-   .sass('resources/assets/sass/app.scss', 'public/css');
+mix.styles([
+
+	'public/css/plugin.revslider.min.css',
+	'public/css/style.css',
+	'public/css/core.animation.min.css',
+	'public/css/shortcodes.min.css',
+	'public/css/shortcodes.css',
+	'public/js/vendor/essential-grid/css/settings.css',
+	'public/js/vendor/essential-grid/css/lightbox.css',
+	'public/css/tpl-essential-grids.min.css',
+	'public/css/skin.css',
+	'public/css/responsive.min.css',
+	'public/js/vendor/magnific/magnific-popup.min.css',
+
+
+	
+
+
+	], 'public/css/alll.css');
+

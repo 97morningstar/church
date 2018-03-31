@@ -57,12 +57,13 @@
                                   <li><a href="https://calendar.google.com/calendar/b/1?cid=aWJoY29ucm9lQGdtYWlsLmNvbQ" target="_blank"></span> Calendario</a></li>
                                   <li><a href="/forms/17_10_03 Carta 06 Planilla General de Membrecia.pdf" target="_blank">Formulario de membresía</a></li>
                                 </ul>
-                            </aside><!-- /: Instagram --><!-- Widget: Recent Comments --><aside class="column-1_5">
+                                <br><br>
                                 <h5 class="widget_title">Contáctanos</h5>
-                                <ul>
+                              
                                     <li><a href="/contactos">Pedir Oración</a></li>
                                    <li><a href="/contactos">Escríbenos</a></li>
-                                </ul>
+                                
+                            </aside><!-- /: Instagram --><!-- Widget: Recent Comments --><aside class="column-1_5">
                             </aside>
                             </div>
                         </div>

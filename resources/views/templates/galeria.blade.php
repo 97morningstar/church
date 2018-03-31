@@ -1,17 +1,11 @@
 <!-- Core CSS file -->
-<link rel="stylesheet" href="/css/photoswipe.css"> 
+
 
 <!-- Skin CSS file (styling of UI - buttons, caption, etc.)
      In the folder of skin CSS file there are also:
      - .png and .svg icons sprite, 
      - preloader.gif (for browsers that do not support CSS animations) -->
 <link rel="stylesheet" href="/css/default-skin/default-skin.css"> 
-
-<!-- Core JS file -->
-<script src="/js/photoswipe.min.js"></script> 
-
-<!-- UI JS file -->
-<script src="/js/photoswipe-ui-default.min.js"></script> 
 
 
 <style type="text/css">
@@ -281,4 +275,4 @@ var openPhotoSwipe = function() {
 
    
         <script type="text/javascript" src="js/jquery/jquery.js"></script>
-        <script type="text/javascript" src="js/gallery-grid.min.js"></script>
+
