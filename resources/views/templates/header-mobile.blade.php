@@ -30,14 +30,15 @@
                                             <!-- /Home -->
                                             <!-- Pages -->
                                             <li class="menu-item menu-item-has-children">
-                                                <a href="/">Servicios</a>
+                                                <a href="/horarios">Servicios</a>
                                                 <ul class="sub-menu">
                                                     <li class="menu-item">
-                                                        <a href="#">Horarios</a>
+                                                        <a href="horarios">Horarios</a>
                                                     </li>
-                                                     <li class="menu-item">Ministerios</li>
-                                                     <li class="menu-item">Ministerio 1</li>
-                                                     <li class="menu-item">Ministerio 1</li>
+                                                     <li class="menu-item"><a href="#">Ministerios</a></li>
+                                                     <li class="menu-item"><a href="#">Ministerios</a></li>
+                                                     <li class="menu-item"><a href="#">Ministerios</a></li>
+                                         
                                                   
                                                     </li>
                                                {{--     <li class="menu-item menu-item-has-children">
@@ -68,12 +69,12 @@
                                             <!-- /Pages -->
                                             <!-- Events -->
                                             <li class="menu-item">
-                                                <a href="#">Eventos</a>
+                                                <a href="/eventos">Eventos</a>
                                             </li>
                                             <!-- /Events -->
                                             <!-- Sermons -->
                                             <li class="menu-item menu-item-has-children">
-                                                <a href="#">Quiénes Somos</a>
+                                                <a href="quienessomos">Quiénes Somos</a>
                                                 <ul class="sub-menu">
                                                     <li class="menu-item">
                                                         <a href="/quienessomos">Quiénes Somos</a>
