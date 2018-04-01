@@ -75,7 +75,7 @@ Jueves 7:00 PM Culto de Estudio Bíblico y Oración.</span>
 
                                                              <div class="sc_form_item sc_form_field label_over">
                                                                 <label class="required" for="sc_form_email">¿Podemos visitarte?</label>
-                                                                <input id="sc_form_email" type="text" name="direccion" placeholder="¿Podemos visitarte?" value="{{ old('direccion') }}"  >
+                                                                <input  type="text" name="direccion" placeholder="¿Podemos visitarte?" value="{{ old('direccion') }}"  >
                                                             </div>
                                                             {!! $errors->first('direccion', '<span class="error">:message</span>') !!}
 
@@ -83,7 +83,7 @@ Jueves 7:00 PM Culto de Estudio Bíblico y Oración.</span>
 
                                                                 <div class="sc_form_item sc_form_field label_over">
                                                                 <label class="required" for="sc_form_email">Número de teléfono </label>
-                                                                <input id="sc_form_email" type="text" name="telefono" placeholder="Número de teléfono " value="{{ old('telefono') }}"  >
+                                                                <input  type="text" name="telefono" placeholder="Número de teléfono " value="{{ old('telefono') }}"  >
                                                             </div>
                                                               {!! $errors->first('telefono', '<span class="error">:message</span>') !!}
 
