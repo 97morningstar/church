@@ -23,7 +23,6 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Caveat:400,700|Lato:300,300i,400,400i,700,700i|Raleway:300,300i,400,400i,700,700i&amp;subset=latin-ext">
   
 
-  {{--
         <link rel="stylesheet" href="css/plugin.revslider.min.css" type="text/css" media="all" />
      <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
         <link rel="stylesheet" href="css/core.animation.min.css" type="text/css" media="all" />
@@ -41,7 +40,7 @@
 
 
 
-    --}} 
+    
 
         <link rel="stylesheet" href="js/vendor/revslider/css/settings.css" type="text/css" media="all" />
 
