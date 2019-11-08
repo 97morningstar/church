@@ -31,7 +31,7 @@
                                         <div class="content_wrap">
                                             <p>
                                                 <strong>
-                                                    <a href="/contactos">¿Buscas un lugar donde congregarte?</a>
+                                                    <a href="/contactos">¿Buscas un lugar donde congregartee?</a>
                                                 </strong>
                                                 Nuestra Iglesia abre sus puertas para todos aquellos que escuchen la voz de Dios para salvación.
                                             </p>

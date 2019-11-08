@@ -2,6 +2,8 @@
 <html lang="es-ES" class="scheme_original">
 
     <head>
+        <meta name="csrf-token" content="{{ csrf_token() }}">
+
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
         <meta name="format-detection" content="telephone=no">
@@ -77,19 +79,20 @@
                 <!-- Header -->
 
                 @yield('top_style')
-                 		     @include('templates.top')
+                @include('templates.top')
+
                       </div>
                 </header>
                 <!-- /Header -->
                 <!-- Header Mobile -->
-              			@include('templates.header-mobile')
+              	@include('templates.header-mobile')
                 <!-- /Header Mobile -->
                 <!-- Revolution Slider section -->
-               			@yield('pop')
+               	@yield('pop')
                			
                 <!-- /Page Content Wrap -->
                 <!-- Footer -->
-              		    @include('templates.footer')
+              	 @include('templates.footer')
                 <!-- /Copyright -->
             </div>
             <!-- /Page wrap -->
@@ -142,7 +145,6 @@
         <script type="text/javascript" src="js/vendor/swiper/swiper.min.js"></script>
         <script type="text/javascript" src="js/vendor/isotope/dist/isotope.pkgd.min.js"></script>
         <script type="text/javascript" src="js/jquery/ui/accordion.min.js"></script>
-
 
 
 

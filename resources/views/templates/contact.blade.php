@@ -59,11 +59,13 @@ Jueves 7:00 PM Culto de Estudio Bíblico y Oración.</span>
 
 
                                                     <form  method="POST" action="{{ route('contacto.store') }}">
-                                                         {!! csrf_field() !!}
+
+                                      <input type="hidden" id="_token" value="{{ csrf_token() }}">
+
                                                         <div class="sc_form_info">
                                                             <div class="sc_form_item sc_form_field label_over">
-                                                                <label class="required" for="sc_form_username">¿Cómo te llamas?</label>
-                                                                <input id="sc_form_username" type="text" name="nombre" value="{{ old('nombre') }}"  placeholder="¿Cómo te llamas?">
+                                                                <label class="required" for="sc_form_username">¿Cómo te llamass?</label>
+                                                                <input id="sc_form_username" type="text" name="nombre" value="{{ old('nombre') }}"  placeholder="¿Cómo te llamas??">
                                                             </div>
                                                             {!! $errors->first('nombre', '<span class="error">:message</span>') !!}
 

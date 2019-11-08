@@ -21,13 +21,7 @@
 							       		  	@endif
 							       		  	@if(auth()->check())
 							       		  			<li style="color: #333">{{auth()->user()->name}} <a href="/logout" class="icon-user"> Cerrar Sesion</a></li>
-							       		  	@endif
-
-
-
-
-
-                                    
+							       		  	@endif                           
                                     </ul>
                                     <!-- /User login -->
                                     <!-- Socials -->
