@@ -98,7 +98,6 @@ archive body_style_wide body_filled article_style_stretch scheme_original top_pa
                                                               {!! $errors->first('telefono', '<span class="error">:message</span>') !!}
 
 
-
                                                         </div>
                                                         <div class="sc_form_item sc_form_message label_over">
                                                 
