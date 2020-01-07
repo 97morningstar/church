@@ -22,51 +22,36 @@
 		<meta property="og:url" content="https://www.ibhconroe.org/" />
 		<meta property="og:image" content="https://www.ibhconroe.org/resources/images/meta-image.jpg" />
 		<meta property="og:description" content="Bienvenidos a la Iglesia Bautista Hispana de Conroe,TX. Somos una iglesia cristiana bautista que existe para adorar al creador del universo y para ayudar a la comunidad hispana a tener una mejor relacion con Jesucristo" />
+        <!-- Latest compiled and minified CSS -->
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Caveat:400,700|Lato:300,300i,400,400i,700,700i|Raleway:300,300i,400,400i,700,700i&amp;subset=latin-ext">
-  
-
         <link rel="stylesheet" href="css/plugin.revslider.min.css" type="text/css" media="all" />
-     <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+        <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+        <link rel="stylesheet" href="css/custom-styles.css" type="text/css" media="all" />
         <link rel="stylesheet" href="css/core.animation.min.css" type="text/css" media="all" />
-      <link rel="stylesheet" href="css/shortcodes.min.css" type="text/css" media="all" />
-  <link rel="stylesheet" href="css/shortcodes.css" type="text/css" media="all" />
+        <link rel="stylesheet" href="css/shortcodes.min.css" type="text/css" media="all" />
+        <link rel="stylesheet" href="css/shortcodes.css" type="text/css" media="all" />
         <link rel="stylesheet" href="js/vendor/essential-grid/css/settings.css" type="text/css" media="all" />
         <link rel="stylesheet" href="js/vendor/essential-grid/css/lightbox.css" type="text/css" media="all" />
         <link rel="stylesheet" href="css/tpl-essential-grids.min.css" type="text/css" media="all" />
-      <link rel="stylesheet" href="css/skin.css" type="text/css" media="all" /> 
+        <link rel="stylesheet" href="css/skin.css" type="text/css" media="all" />
         <link rel="stylesheet" href="css/responsive.min.css" type="text/css" media="all" />
-
         <link rel="stylesheet" href="js/vendor/magnific/magnific-popup.min.css" type="text/css" media="all" />
-
-
-
-
-
-    
-
         <link rel="stylesheet" href="js/vendor/revslider/css/settings.css" type="text/css" media="all" />
 
      {{--   <link rel="stylesheet" href="css/style.min.css" type="text/css" media="all" />--}}
       {{--  <link rel="stylesheet" href="css/skin.min.css" type="text/css" media="all" /> --}}
 
- <link rel="stylesheet" href="css/fontello/css/fontello.css" type="text/css" media="all" />
-
-
+        <link rel="stylesheet" href="css/fontello/css/fontello.css" type="text/css" media="all" />
         <link rel="icon" href="http://placehold.it/32x32" />
         <link rel="icon" href="http://placehold.it/32x32" />
         <link rel="apple-touch-icon-precomposed" href="http://placehold.it/32x32" />
-
-
-  
-
-
-
-
-  <link rel="stylesheet" href="css/alll.css" type="text/css" media="all" />
-
-
-        
+        <link rel="stylesheet" href="css/alll.css" type="text/css" media="all" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     </head>
 
     <body class="@yield('body_class')">
@@ -75,22 +60,20 @@
         <!-- Body wrap -->
         <div class="body_wrap">
             <!-- Page wrap -->
-            <div class="page_wrap">
-                <div class="top_panel_fixed_wrap"></div>
+            <!-- <div class="page_wrap"> -->
                 <!-- Header -->
 
-                @yield('top_style')
+                <!--@yield('top_style')-->
                 @include('templates.top')
 
-                      </div>
-                </header>
+            <!--</div> -->
                 <!-- /Header -->
                 <!-- Header Mobile -->
               	@include('templates.header-mobile')
                 <!-- /Header Mobile -->
                 <!-- Revolution Slider section -->
                	@yield('pop')
-               			
+
                 <!-- /Page Content Wrap -->
                 <!-- Footer -->
               	 @include('templates.footer')
@@ -106,8 +89,8 @@
 
 
         <script type="text/javascript" src="js/vendor/photostack/modernizr.min.js"></script>
-        <script type="text/javascript" src="js/_main.min.js"></script>   
- 
+        <script type="text/javascript" src="js/_main.min.js"></script>
+
 
         <script type="text/javascript" src="js/_packed.js"></script>
 
@@ -129,17 +112,22 @@
         <script type="text/javascript" src="js/core.utils.min.js"></script>
 
 
+<<<<<<< HEAD
         <script type="text/javascript" src="js/core.init.js"></script> 
        
+=======
+        <script type="text/javascript" src="js/core.init.min.js"></script>
+
+>>>>>>> 7aa3fdc1083c1a3475ac9f4afb253d0bbb905f53
 
 
 
         <script type="text/javascript" src="js/template.init.min.js"></script>
 
    {{--     <script type="text/javascript" src="js/shortcodes.min.js"></script>   --}}
-         <script type="text/javascript" src="js/shortcodes.min.js"></script> 
+         <script type="text/javascript" src="js/shortcodes.min.js"></script>
 
-      
+
         <script type="text/javascript" src="js/vendor/magnific/jquery.magnific-popup.min.js"></script>
 
 

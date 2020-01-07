@@ -1,0 +1,17 @@
+.nav-item {
+  padding-top: 9px;
+}
+
+.navbar-social {
+  margin-left: 10px;
+  display: inline-block;
+}
+
+.navbar-social a {
+  color: white !important
+  transition: 0.3s;
+}
+
+.navbar-social a :hover{
+  color: #696969 !important;
+}
