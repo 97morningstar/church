@@ -6,26 +6,150 @@
      - .png and .svg icons sprite, 
      - preloader.gif (for browsers that do not support CSS animations) -->
 <link rel="stylesheet" href="/css/default-skin/default-skin.css"> 
+<link rel="stylesheet" type="text/css" href="/css/gallery/lightgallery.min.css">
+<link rel="stylesheet" type="text/css" href="/css/gallery/lg-transitions.min.css">
+<link rel="stylesheet" type="text/css" href="/css/gallery/lg-fb-comment-box.min.css">
 
 
 <style type="text/css">
-    .my-gallery {
-  width: 100%;
-  float: left;
+ 
+ .lg-icon{
+  background-image: none !important;
+background-color: rgba(0,0,0,.45) !important;
+ }
+
+.demo-gallery > ul {
+  margin-bottom: 0;
+  padding-left: 15px;
 }
-.my-gallery img {
-  width: 100%;
-  height: auto;
+
+.demo-gallery > ul > li {
+  margin-bottom: 15px;
+      height: 130px;
+  width: 180px;
+  display: inline-block;
+  margin-right: 15px;
+  list-style: outside none none;
 }
-.my-gallery figure {
+
+.demo-gallery > ul > li a {
+  border: 3px solid #FFF;
+  border-radius: 3px;
   display: block;
+  overflow: hidden;
+  position: relative;
   float: left;
-  margin: 0 5px 5px 0;
-  width: 150px;
 }
-.my-gallery figcaption {
-  display: none;
+
+.demo-gallery > ul > li a > img {
+  -webkit-transition: -webkit-transform 0.15s ease 0s;
+  -moz-transition: -moz-transform 0.15s ease 0s;
+  -o-transition: -o-transform 0.15s ease 0s;
+  transition: transform 0.15s ease 0s;
+  -webkit-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
+  height: 100%;
+  width: 100%;
 }
+
+.demo-gallery > ul > li a:hover > img {
+  -webkit-transform: scale3d(1.1, 1.1, 1.1);
+  transform: scale3d(1.1, 1.1, 1.1);
+}
+
+.demo-gallery > ul > li a:hover .demo-gallery-poster > img {
+  opacity: 1;
+}
+
+.demo-gallery > ul > li a .demo-gallery-poster {
+  background-color: rgba(0, 0, 0, 0.1);
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  -webkit-transition: background-color 0.15s ease 0s;
+  -o-transition: background-color 0.15s ease 0s;
+  transition: background-color 0.15s ease 0s;
+}
+
+.demo-gallery > ul > li a .demo-gallery-poster > img {
+  left: 50%;
+  margin-left: -10px;
+  margin-top: -10px;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  -webkit-transition: opacity 0.3s ease 0s;
+  -o-transition: opacity 0.3s ease 0s;
+  transition: opacity 0.3s ease 0s;
+}
+
+.demo-gallery > ul > li a:hover .demo-gallery-poster {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.demo-gallery .justified-gallery > a > img {
+  -webkit-transition: -webkit-transform 0.15s ease 0s;
+  -moz-transition: -moz-transform 0.15s ease 0s;
+  -o-transition: -o-transform 0.15s ease 0s;
+  transition: transform 0.15s ease 0s;
+  -webkit-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
+  height: 100%;
+  width: 100%;
+}
+
+.demo-gallery .justified-gallery > a:hover > img {
+  -webkit-transform: scale3d(1.1, 1.1, 1.1);
+  transform: scale3d(1.1, 1.1, 1.1);
+}
+
+.demo-gallery .justified-gallery > a:hover .demo-gallery-poster > img {
+  opacity: 1;
+}
+
+.demo-gallery .justified-gallery > a .demo-gallery-poster {
+   height: 48px;
+  background-color: rgba(0, 0, 0, 0.1);
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  -webkit-transition: background-color 0.15s ease 0s;
+  -o-transition: background-color 0.15s ease 0s;
+  transition: background-color 0.15s ease 0s;
+}
+
+.demo-gallery .justified-gallery > a .demo-gallery-poster > img {
+  left: 50%;
+  margin-left: -10px;
+  margin-top: -10px;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  -webkit-transition: opacity 0.3s ease 0s;
+  -o-transition: opacity 0.3s ease 0s;
+  transition: opacity 0.3s ease 0s;
+}
+
+.demo-gallery .justified-gallery > a:hover .demo-gallery-poster {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.demo-gallery .video .demo-gallery-poster img {
+  height: 48px;
+  margin-left: -24px;
+  margin-top: -24px;
+  opacity: 0.8;
+  width: 48px;
+}
+
+.demo-gallery.dark > ul > li a {
+  border: 3px solid #04070a;
+}
+
 </style>
 
 
@@ -71,214 +195,43 @@
                         <h2>Galería</h2>
                        
                         <div class="content">
-                             <article class="post_item post_item_single page">
-                                <section class="post_content tpl_gallery_section">
-                                    <!-- THE ESSENTIAL GRID -->
-                                    <!-- GRID WRAPPER FOR CONTAINER SIZING - HERE YOU CAN SET THE CONTAINER SIZE AND CONTAINER SKIN -->
-                                    <article class="myportfolio-container" id="esg-grid-2-1-wrap">
-                                        <!-- THE GRID ITSELF WITH FILTERS, PAGINATION, SORTING ETC... -->
-                                        <div id="esg-grid-2-1" class="esg-grid">
-                                     {{--       <article class="esg-filters esg-singlefilters grid-filters margin_bottom_20">
-                                                <!-- THE FILTERING, SORTING AND WOOCOMMERCE BUTTONS -->
-                                                <!-- THE FILTER BUTTONS -->
-                                                <div class="esg-filter-wrapper esg-fgc-2 margin_right_3 margin_left_3">
-                                                    <div class="esg-filterbutton selected esg-allfilter" data-filter="filterall" data-fid="-1">
-                                                        <span>Todas</span>
-                                                    </div>
-                                                    <div class="esg-filterbutton" data-fid="123" data-filter="filter-conferences">
-                                                        <span>Servicios</span>
-                                                        <span class="esg-filter-checked">
-                                                            <i class="eg-icon-ok-1"></i>
-                                                        </span>
-                                                    </div>
-                                                    <div class="esg-filterbutton" data-fid="121" data-filter="filter-events">
-                                                        <span>Eventos</span>
-                                                        <span class="esg-filter-checked">
-                                                            <i class="eg-icon-ok-1"></i>
-                                                        </span>
-                                                    </div>
-                                             
-                                                    <div class="eg-clearfix"></div>
-                                                </div>
-                                            </article> --}}
-                                            <div class="esg-clear-no-height"></div>
-                                            <!-- ############################ -->
-                                            <!-- THE GRID ITSELF WITH ENTRIES -->
-                                            <!-- ############################ -->
-
-<iframe scrolling="no" marginheight="0" frameborder="0" width="551" style="height: 582px;" src="https://www.facebook.com/pg/ibhconroe/photos/?tab=album&album_id=2514142065519865"></iframe>
 
 
-                                          <div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
-                                            
-                                            <?php
-                                                $con = 1;
-                                                $yes = false;
 
-                                      // dd(file_exists ('/images/nav-gallery/'.$con.'.jpg'));
 
-                                                $path = $_SERVER['DOCUMENT_ROOT'].'/images/nav-gallery/'.$con.'.jpg';
+<div class='demo-gallery' >
+<ul id='lightgallery'>
 
-                     
+@foreach (  $photos_1  as  $source ) 
 
-                                                    while($con<=100 && file_exists ($_SERVER['DOCUMENT_ROOT'].'/images/nav-gallery/'.$con.'.jpg')){
+    @if(!isset($source['name']))
+     {{ $source['name']=" " }} 
+    @endif
 
-                                                    try {
+    <li data-src='{{ $source["source"] }}' data-sub-html='{{ $source["name"] }}'>
+    <a href=''>
+    <img class='img-responsive' src='{{ $source["source"] }}' alt=''>
+    <div class='demo-gallery-poster'>
+   
+    </div>
+    </a>
 
-                                                  echo(  '<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-                                                      <a href="/images/nav-gallery/'.$con.'.jpg" itemprop="contentUrl" data-size="1024x1024">
-                                                          <img src="/images/nav-gallery/'.$con.'.jpg" itemprop="thumbnail" alt="Image description" />
-                                                      </a>
-                                                   <figcaption itemprop="caption description">Image caption  1</figcaption>
-                                                                                          
-                                                    </figure>' );
-                                                                                        
-                                                         } catch (Exception $e) {
-                                                             break;                            
-                                                     }                                      
+@endforeach
 
-                                                        $con++;
-                                                 }
-                                              ?>
-                                          </div>
-                                              
-                                     
-                                            <!-- ############################ -->
-                                            <!--      END OF THE GRID         -->
-                                            <!-- ############################ -->
-                                            
-                                                <!-- THE PAGINATION CONTAINER. PAGE BUTTONS WILL BE ADDED ON DEMAND AUTOMATICALLY !! -->
-                                               
-                                                <!-- END OF THE PAGINATION -->
-                                            </article>
-                                          
-                                        </div>
-                                        <!-- END OF THE GRID -->
-                                    </article>
-                                    <!-- END OF THE GRID WRAPPER -->
-                                    <div class="clear"></div>
-                                </section>
-                            </article>
+</ul>
+</div>
+
+
+
+
                         </div>
                         <!-- /Content -->
                     </div>
                  </div>
 
-
-
-
-
-<!-- Root element of PhotoSwipe. Must have class pswp. -->
-<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
-
-    <!-- Background of PhotoSwipe. 
-         It's a separate element as animating opacity is faster than rgba(). -->
-    <div class="pswp__bg"></div>
-
-    <!-- Slides wrapper with overflow:hidden. -->
-    <div class="pswp__scroll-wrap">
-
-        <!-- Container that holds slides. 
-            PhotoSwipe keeps only 3 of them in the DOM to save memory.
-            Don't modify these 3 pswp__item elements, data is added later on. -->
-        <div class="pswp__container">
-            <div class="pswp__item"></div>
-            <div class="pswp__item"></div>
-            <div class="pswp__item"></div>
-        </div>
-
-        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
-        <div class="pswp__ui pswp__ui--hidden">
-
-            <div class="pswp__top-bar">
-
-                <!--  Controls are self-explanatory. Order can be changed. -->
-
-                <div class="pswp__counter"></div>
-
-                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
-
-                <button class="pswp__button pswp__button--share" title="Share"></button>
-
-                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
-
-                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
-
-                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
-                <!-- element will get class pswp__preloader active when preloader is running -->
-                <div class="pswp__preloader">
-                    <div class="pswp__preloader__icn">
-                      <div class="pswp__preloader__cut">
-                        <div class="pswp__preloader__donut"></div>
-                      </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-                <div class="pswp__share-tooltip"></div> 
-            </div>
-
-            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
-            </button>
-
-            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
-            </button>
-
-            <div class="pswp__caption">
-                <div class="pswp__caption__center"></div>
-            </div>
-
-        </div>
-
-    </div>
-
-</div>
-
-<script type="text/javascript">
-var openPhotoSwipe = function() {
-    var pswpElement = document.querySelectorAll('.pswp')[0];
-
-    // build items array
-    var items = [
-        {
-            src: 'https://farm2.staticflickr.com/1043/5186867718_06b2e9e551_b.jpg',
-            w: 964,
-            h: 1024
-        },
-        {
-            src: 'https://farm7.staticflickr.com/6175/6176698785_7dee72237e_b.jpg',
-            w: 1024,
-            h: 683
-        }
-    ];
-    
-    // define options (if needed)
-    var options = {
-             // history & focus options are disabled on CodePen        
-        history: false,
-        focus: false,
-
-        showAnimationDuration: 0,
-        hideAnimationDuration: 0
-        
-    };
-    
-    var gallery = new PhotoSwipe( pswpElement, PhotoSwipeUI_Default, items, options);
-    gallery.init();
-};
-
-//openPhotoSwipe();
-
-
-</script>
-
-
-
-
 @endsection
 
 
    
-        <script type="text/javascript" src="js/jquery/jquery.js"></script>
+
 

@@ -64,11 +64,9 @@ Route::get('/contactos', ['as' => 'contacto', 'uses' => 'ContactController@index
 
 Route::post('/contactos/store', ['as' => 'contacto.store', 'uses' => 'ContactController@store']);
 
+Route::get('/galeria', ['as' => 'galeria', 'uses' => 'GalleryController@index']);
 
 
-Route::get('/galeria', function(){
-	return view('templates.galeria');
-});
 
 Route::get('/login', ['as' => 'login', 'uses' => 'Auth\LoginController@showLoginForm']);
 

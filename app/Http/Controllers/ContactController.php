@@ -34,7 +34,7 @@ class ContactController extends Controller
   		
   		$contact = Contact::create($request->all());
 
-    Mail::to('97morningstar@gmail.com')->send(new ContactoReceived($contact));
+    Mail::to('contacto@ibhconroe.org')->send(new ContactoReceived($contact));
 
       return redirect()->route('contacto');
   	}
