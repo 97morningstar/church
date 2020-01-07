@@ -1,13 +1,11 @@
 
-
-
-  @extends('layout.app')
+@extends('layout.app')
 
  @section('title')
- - horarios
+ - Horarios
  @endsection
 
-  @section('top_style')
+@section('top_style')
   <header class="top_panel_wrap top_panel_style_3 scheme_original">
                     <div class="top_panel_wrap_inner top_panel_inner_style_3 top_panel_position_above">
  @endsection

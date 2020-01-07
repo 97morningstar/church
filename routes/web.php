@@ -62,6 +62,9 @@ Route::get('/lideres', function(){
 
 Route::get('/contactos', ['as' => 'contacto', 'uses' => 'ContactController@index']);
 
+Route::post('/contactos/store', ['as' => 'contacto.store', 'uses' => 'ContactController@store']);
+
+
 
 Route::get('/galeria', function(){
 	return view('templates.galeria');
@@ -82,7 +85,6 @@ Route::get('/panel/event/{id}/edit', ['as' => 'panel.event_edit', 'uses' => 'Eve
 Route::put('/panel/event/{id}', ['as' => 'panel.event_update', 'uses' => 'EventsController@update']);
 Route::delete('/panel/event/{id}', ['as' => 'panel.event_destroy', 'uses' => 'EventsController@destroy']);
 
-Route::post('/contactos/store', ['as' => 'contacto.store', 'uses' => 'ContactController@store']);
 
 
 Route::get('/contactos/googlee6e038e50dee42fb.html', function(){

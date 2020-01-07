@@ -2,7 +2,8 @@
 <html lang="es-ES" class="scheme_original">
 
     <head>
-        <meta name="csrf-token" content="{{ csrf_token() }}">
+        @yield('token')
+        
 
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -128,7 +129,7 @@
         <script type="text/javascript" src="js/core.utils.min.js"></script>
 
 
-        <script type="text/javascript" src="js/core.init.min.js"></script> 
+        <script type="text/javascript" src="js/core.init.js"></script> 
        
 
 
@@ -145,7 +146,6 @@
         <script type="text/javascript" src="js/vendor/swiper/swiper.min.js"></script>
         <script type="text/javascript" src="js/vendor/isotope/dist/isotope.pkgd.min.js"></script>
         <script type="text/javascript" src="js/jquery/ui/accordion.min.js"></script>
-
 
 
 

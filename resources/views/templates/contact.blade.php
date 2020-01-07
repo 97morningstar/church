@@ -6,6 +6,10 @@
  - Contactos
  @endsection
 
+ @section('token')
+ <meta name="csrf-token" content="{{ csrf_token() }}">
+ @endsection
+
   @section('top_style')
   <header class="top_panel_wrap top_panel_style_3 scheme_original">
                     <div class="top_panel_wrap_inner top_panel_inner_style_3 top_panel_position_above">
@@ -46,26 +50,30 @@ archive body_style_wide body_filled article_style_stretch scheme_original top_pa
                                                     </div>
                                                     <div class="sc_form_address_field sc_form_address_field_icon_email">
                                                         <span class="sc_form_address_label">¿Tienes preguntas?</span>
-                                                        <span class="sc_form_address_data">ibhconroe@gmail.com</span>
+                                                        <span class="sc_form_address_data">contacto@ibhconroe.org</span>
                                                     </div>
                                                     <div class="sc_form_address_field sc_form_address_field_hours">
                                                         <span class="sc_form_address_label">Servicios:</span>
-                                                        <span class="sc_form_address_data">Domingo 10:30 AM Escuela Bíblica Dominical. <br> 
-
-Jueves 7:00 PM Culto de Estudio Bíblico y Oración.</span>
+                                                        <span class="sc_form_address_data">Domingo 11:00 AM </span> 
+                                                        <span> Escuela Bíblica Dominical. </span>
+<br>
+<span>Jueves 7:30 PM </span> 
+<br>
+<span>Estudio Bíblico y Oración.</span>
                                                     </div>
                                                 </div><div class="sc_form_fields column-2_3">
 
 
 
-                                                    <form  method="POST" action="{{ route('contacto.store') }}">
+                                                    <form  method="POST" action="{{ route('contacto.store') }}"  enctype="multipart/form-data" >
 
-                                      <input type="hidden" id="_token" value="{{ csrf_token() }}">
+                                  
+                                                 <input type="hidden" name="_token" id="token" value="{{ csrf_token() }}">
 
                                                         <div class="sc_form_info">
                                                             <div class="sc_form_item sc_form_field label_over">
                                                                 <label class="required" for="sc_form_username">¿Cómo te llamass?</label>
-                                                                <input id="sc_form_username" type="text" name="nombre" value="{{ old('nombre') }}"  placeholder="¿Cómo te llamas??">
+                                                                <input id="sc_form_username" type="text" name="nombre" value="{{ old('nombre') }}"  placeholder="¿Cómo te llamas?">
                                                             </div>
                                                             {!! $errors->first('nombre', '<span class="error">:message</span>') !!}
 
@@ -77,7 +85,7 @@ Jueves 7:00 PM Culto de Estudio Bíblico y Oración.</span>
 
                                                              <div class="sc_form_item sc_form_field label_over">
                                                                 <label class="required" for="sc_form_email">¿Podemos visitarte?</label>
-                                                                <input  type="text" name="direccion" placeholder="¿Podemos visitarte?" value="{{ old('direccion') }}"  >
+                                                                <input  type="text" name="direccion" placeholder="¿Podemos visitarte?  Por favor escribe tu dirección" value="{{ old('direccion') }}"  >
                                                             </div>
                                                             {!! $errors->first('direccion', '<span class="error">:message</span>') !!}
 
@@ -93,10 +101,8 @@ Jueves 7:00 PM Culto de Estudio Bíblico y Oración.</span>
 
                                                         </div>
                                                         <div class="sc_form_item sc_form_message label_over">
-                                                            <label class="required" for="sc_form_message">¿Cómo podemos ayudarte?</label>
-                                                            <textarea id="sc_form_message" name="mensaje" placeholder="Mensaje">
-                                                              {{ old('mensaje') }}
-                                                            </textarea>
+                                                
+                                                            <textarea id="sc_form_message" name="mensaje" placeholder="Mensaje">{{ old('mensaje') }}</textarea>
                                                         </div>
                                                         {!! $errors->first('mensaje', '<span class="error">:message</span>') !!}
 
@@ -120,3 +126,4 @@ Jueves 7:00 PM Culto de Estudio Bíblico y Oración.</span>
 
         <script type="text/javascript" src="http://maps.google.com/maps/api/js?key=AIzaSyAzpZaReUPfCNVLW3OpYn7jXaF5uF6XJcw"></script>
         <script type="text/javascript" src="js/core.googlemap.min.js"></script>
+

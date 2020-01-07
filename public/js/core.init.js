@@ -446,7 +446,7 @@ function newlife_church_ready_actions() {
 	});*/
 	
 	// Registration form
-	jQuery('.popup_form.registration_form').submit(function(e){
+	/*jQuery('.popup_form.registration_form').submit(function(e){
 		"use strict";
 		var rez = newlife_church_registration_validate(jQuery(this));
 		if (!rez)
@@ -461,7 +461,7 @@ function newlife_church_ready_actions() {
 		if (!rez)
 			e.preventDefault();
 		return rez;
-	});
+	});*/
 
 
 
@@ -1658,6 +1658,7 @@ function newlife_church_login_validate(form) {
 
 
 // Registration form 
+/*
 function newlife_church_registration_validate(form) {
 	"use strict";
 	form.find('input').removeClass('error_fields_class');
@@ -1723,8 +1724,9 @@ function newlife_church_registration_validate(form) {
 	return false;
 }
 
+*/
 
-// Contact form handlers/*
+// Contact form handlers
 /*
 function newlife_church_sc_form_validate(form){/
 	"use strict";
@@ -1799,3 +1801,4 @@ function newlife_church_sc_form_validate(form){/
 	}
 	return !error;
 }*/
+

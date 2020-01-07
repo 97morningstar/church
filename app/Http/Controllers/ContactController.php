@@ -2,13 +2,19 @@
 
 namespace App\Http\Controllers;
 
+use Illuminate\Http\Request;
+
+
 use Illuminate\Support\Facades\Mail;
 
-use Illuminate\Http\Request;
+use App\Mail\ContactoReceived;
 
 use App\Contact;
 
 use App\Mail\DemoMail;
+
+
+
 
 
 use App\Http\Requests\CreateContactRequest;
@@ -21,24 +27,17 @@ class ContactController extends Controller
   }
 
 
-  /*	public function store(CreateContactRequest $request){
+  	public function store(CreateContactRequest $request){
 
 
   		
   		
-  		//$contact = Contact::create($request->all());
+  		$contact = Contact::create($request->all());
 
-  		//Mail::to('97morningstar@gmail.com')->send(new DemoMail($contact));
+    Mail::to('97morningstar@gmail.com')->send(new ContactoReceived($contact));
 
-  		//return redirect()->route('contacto')/*->with('info', 'Hemos recibido tu mensaje!')*/
-  	/*}*/
-
-  	public function store(){
-
-  		return redirect()->route('contacto');
+      return redirect()->route('contacto');
   	}
-
-
 
 
 }
