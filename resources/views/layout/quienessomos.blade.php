@@ -39,7 +39,11 @@
                         <!-- Content -->
                         <h2>Quiénes somos</h2>
                        
-                       <h3>Somos una Iglesia Cristiana, Bautista, que está siendo plantada bajo los principios bíblicos que históricamente han identificado nuestra denominación.</h3>
+                       <p class="lead text-justify">Bienvenido a la página web de la Iglesia Bautista Hispana de Conroe. Somos una iglesia nueva en esta comunidad que nació en el corazón de Dios con el firme propósito de ser el cuerpo de Cristo, de la cual Él es la cabeza, y cuyos miembros sean todos aquellos que verdaderamente le hayan recibido por medio de la fe. 
+Trabajamos para que todos los miembros del cuerpo de Cristo estén unidos en Él por el mismo Espíritu Santo, por lo tanto, vivan en amor, armonía y unidad como una familia en Cristo. 
+Luchamos por el mismo propósito y aceptamos las prácticas denominacionales que se basan en una sincera interpretación de la Biblia, teniendo como base los principios bautistas y nuestra declaración de FE. 
+Creemos que nuestro propósito como Iglesia es ser testigos, dando a conocer a Cristo a los hombres perdidos, hacer discípulos y glorificar a Dios.
+</p>
                         <!-- /Content -->
                     </div>
                  </div>

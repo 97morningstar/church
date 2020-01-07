@@ -13,7 +13,7 @@
 
 <style type="text/css">
  
- .lg-icon{
+  .lg-prev, .lg-next{
   background-image: none !important;
 background-color: rgba(0,0,0,.45) !important;
  }
