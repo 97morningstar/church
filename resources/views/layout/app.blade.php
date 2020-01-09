@@ -67,9 +67,6 @@
 
             <!--</div> -->
                 <!-- /Header -->
-                <!-- Header Mobile -->
-              	@include('templates.header-mobile')
-                <!-- /Header Mobile -->
                 <!-- Revolution Slider section -->
                	@yield('pop')
 

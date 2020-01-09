@@ -15,7 +15,7 @@
 												<p class="address">600 Frazier St. Conroe 77301</p>
 											</a></strong>
                                         </p>
-                                        
+
                                                 <div class="sc_socials sc_socials_type_icons sc_socials_shape_round sc_socials_size_tiny social_footer">
                                                             <div class="sc_socials_item">
                                                                 <a href="https://twitter.com/ibhconroe" target="_blank" class="social_icons social_twitter">
@@ -33,22 +33,22 @@
                                                                 </a>
                                                             </div>
                                                         </div>
-                                        
+
                                     </div>
                                 </aside><!-- /Widget: Text --><!-- Widget: Recent Posts --><aside class="column-1_5">
                                 <h5 class="widget_title">Navegación</h5>
-                                
+
                                     <ul>
                                          <li><a href="/">Menú</a></li>
                                           <li><a href="/servicios">Servicios</a></li>
                                          <li><a href="/eventos">Eventos</a></li>
-                                 
-                                         <li><a href="/quienessomos">Quiénes Somos</a></li> 
+
+                                         <li><a href="/quienessomos">Quiénes Somos</a></li>
                                           <li ><a href="/galeria">Galería</a></li>
                                          <li><a href="/contactos">Contactos</a></li>
                                    </ul>
-                               
-                          
+
+
                             </aside><!-- /Widget: Recent Posts --><!-- Widget: Instagram -->
                             <aside class="column-1_5">
                                 <h5 class="widget_title">Recursos</h5>
@@ -59,12 +59,14 @@
                                 </ul>
                                 <br><br>
                                 <h5 class="widget_title">Contáctanos</h5>
-                              
+
                                     <li><a href="/contactos">Pedir Oración</a></li>
                                    <li><a href="/contactos">Escríbenos</a></li>
-                                
-                            </aside><!-- /: Instagram --><!-- Widget: Recent Comments --><aside class="column-1_5">
+
                             </aside>
+                            <div class="facebook-widget">
+                              <div class="fb-page" data-href="https://www.facebook.com/ibhconroe/" data-tabs="timeline" data-width="" data-height="380" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false"><blockquote cite="https://www.facebook.com/ibhconroe/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/ibhconroe/">Iglesia Bautista Hispana de Conroe</a></blockquote></div>
+                            </div>
                             </div>
                         </div>
                     </div>
