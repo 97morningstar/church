@@ -35,9 +35,9 @@ archive body_style_wide body_filled article_style_stretch scheme_original top_pa
                                 <div class="content_wrap padding_top_5_2857em padding_bottom_6_1429em">
                                     <div id="sc_form_1_wrap" class="sc_form_wrap ">
                                         <div id="sc_form_1" class="sc_form sc_form_style_form_2 aligncenter">
-                                            <h6 class="sc_form_subtitle sc_item_subtitle">Contactos</h6>
+                                            <h6 class="sc_form_subtitle sc_item_subtitle">¿Cómo encontrarnos? </h6>
                                             <h2 class="sc_form_title sc_item_title">Ponte en contacto con nosotros</h2>
-                                            <div class="sc_form_descr sc_item_descr">Sean bienvenidos</div>
+                                            <div class="sc_form_descr sc_item_descr">Si tienes alguna pregunta, no dudes en dejar tu información de contacto y una nota. </div>
                                             <div class="sc_columns columns_wrap">
                                                 <div class="sc_form_address column-1_3">
                                                     <div class="sc_form_address_field sc_form_address_field_icon_address">
@@ -51,15 +51,20 @@ archive body_style_wide body_filled article_style_stretch scheme_original top_pa
                                                     <div class="sc_form_address_field sc_form_address_field_icon_email">
                                                         <span class="sc_form_address_label">¿Tienes preguntas?</span>
                                                         <span class="sc_form_address_data">contacto@ibhconroe.org</span>
+                                                          <span class="sc_form_address_data">ibhconroe@gmail.com</span>
                                                     </div>
                                                     <div class="sc_form_address_field sc_form_address_field_hours">
                                                         <span class="sc_form_address_label">Servicios:</span>
                                                         <span class="sc_form_address_data">Domingo 11:00 AM </span> 
                                                         <span> Escuela Bíblica Dominical. </span>
-<br>
-<span>Jueves 7:30 PM </span> 
-<br>
-<span>Estudio Bíblico y Oración.</span>
+                                                        <br>
+                                                        <span>Jueves 7:30 PM </span> 
+                                                        <br>
+                                                        <span>Estudio Bíblico y Oración.</span>
+                                                    </div>
+                                                      <div class="sc_form_address_field sc_form_address_field_hours">
+                                                        <span class="sc_form_address_label">Horario de Oficina:</span>
+                                                        <span class="sc_form_address_data">Lunes a Jueves <br>8:00 – 5:00 PM </span> 
                                                     </div>
                                                 </div><div class="sc_form_fields column-2_3">
 

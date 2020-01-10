@@ -33,35 +33,38 @@
                 </div>
                 <!-- /Breadcrumbs -->
                 <!-- Page Content Wrap -->
-               <div class="page_content_wrap">
+               <div class="page_content_wrap" style="background-color: #f7fbfc; ">
                     <div class="content_wrap">
                         <!-- Content -->
-                        <h2>En qué creemos</h2>
+                        <h2 id="en_que_creemos_title">Nuestro lema: Jesús es el Camino. </h2>
                        
-                      <p>Nuestra declaración de fe, para ser tenida en cuenta en cursos, talleres, escuelas y cualquier actividad de enseñanza de nuestra Iglesia</p>
-			<div class="mision">
-				<ol class="mision">
-					<li class="mision"><p><strong> LAS ESCRITURAS</strong> Creemos que la Biblia es la inspirada Palabra de Dios en su totalidad</p></li>
+                      <p class="en_que_creemos_text">Nuestro lema intenta resumir las propias palabras de Jesús en Juan 14:6, mediante la cual proclamamos que el único camino, la verdad y la vida eterna solamente la podemos encontrar a través de Jesucristo. </p>
 
-					<li class="mision"><p><strong> LA TRINIDAD</strong> Creemos en un solo Dios, que existe eternamente en tres personas distintas: Padre, Hijo y Espíritu Santo</p></li>
+                      <h2 id="en_que_creemos_title">Nuestros valores.</h2>
+                       
+                      <p class="en_que_creemos_text">Declaramos que nuestros valores, para los cuales trabajamos y usamos como guía para consolidar nuestros planes estratégicos en el cumplimiento de la visión y misión de Dios en nuestra congregación, son los siguientes:</p>
 
-					<li class="mision"><p><strong> El Hombre</strong> Creemos que el hombre fue creado a la imagen de Dios, que no llego a existir como resultado de una evolución</p></li>
+                      <br>
+                      <ul>
+                        <li class="en_que_creemos_text">Fidelidad a la Palabra de Dios y apego a la sana doctrina.</li>
+                        <li class="en_que_creemos_text">Alto nivel de santidad en cada uno de sus miembros.</li>
+                        <li class="en_que_creemos_text">Pasión por el trabajo evangelístico y misionero.</li>
+                        <li class="en_que_creemos_text">Madurez constante y crecimiento espiritual.</li>
+                        <li class="en_que_creemos_text">Fuerte liderazgo.</li>
+                        <li class="en_que_creemos_text">Adoración genuina. <strong>“Creemos que una iglesia con un ministerio de adoración poderoso es una iglesia que tiene un potencial de crecimiento”</strong> </li>
+                        <li class="en_que_creemos_text">Ayudar a los más necesitados en la iglesia y la comunidad.</li>
+                        <li class="en_que_creemos_text">Honestidad y transparencia.</li>
+                        <li class="en_que_creemos_text">Alto sentido de la disciplina y disciplina de la permanencia.</li>
 
-					<li class="mision"><p><strong> Satanás</strong> Creemos que Satanás es el instigador del pecado, un ser espiritual real, y no simplemente la personificación del mal</p></li>
+                      </ul>
 
-					<li class="mision"><p><strong> La salvación</strong> Creemos que la sangre derramada en la cruz provee la base para el perdón de pecados y obtención de la Salvación, la cual es un don gratuito de Dios mediante la fe</p></li>
-
-					<li class="mision"><p><strong> La vida Cristiana</strong> Creemos que todo aquel que cree en Cristo debe vivir para Él y no para si mismo y debe vivir mediante el poder del Espíritu Santo que mora en él</p></li>
-
-					<li class="mision"><p><strong> La iglesia</strong> Creemos que la iglesia es el cuerpo de Cristo, de la cual Él es la cabeza, y cuyos miembros son todos aquellos que verdaderamente han recibido por medio de la fe</p></li>
-
-					<li class="mision"><p><strong> Las ordenanzas</strong> Creemos que las únicas ordenanzas para la iglesia reconocidas por las Escrituras, son el bautismo por inmersión en agua y la Cena del Señor</p></li>
-
-					<li class="mision"><p><strong> El eterno destino del hombre</strong> Creemos que solo hay dos destinos después de la muerte: para el que cree la presencia y compañía del Señor. El que no cree  queda inmediata y conscientemente separado de Dios, destinado a juicio, condenación y castigo eterno</p></li>
-
-					<li class="mision"><p><strong> Las cosas futuras</strong> Creemos que el siguiente evento profético es el arrebatamiento (rapto) de la iglesia. Luego le seguirá el período de siete años de la gran tribulación. Creemos que al final de la Gran Tribulación el señor Jesucristo regresará físicamente, en su segunda venida, para ejecutar juicio e introducir el reino milenial sobre la tierra por 1000 años. Después del milenio será seguido por el juicio final de Satanás, cuando sea lanzado eternamente dentro del lago de fuego; por el juicio del gran trono blanco y la resurrección corporal de aquellos que no creyeron en Cristo, por la creación de cielos y tierra nueva y por el eterno estado de las cosas.</p></li>
-				</ol>
-			</div>
+                      <h2 id="en_que_creemos_title">Nuestra declaración de FE</h2>
+                       
+                      <p class="en_que_creemos_text"><a href="\resources\Declaración de FE.pdf" target="_blank">Nuestra declaración de fe </a>denota nuestras creencias doctrinales básicas, las cuales son tenidas en cuenta a la hora de aceptar nuevos miembros. Así mismos son utilizadas en cursos, talleres, escuelas y cualquier actividad de enseñanza de nuestra iglesia.
+Esta declaración refleja la extensa corriente evangélica, la cual concuerda con las enseñanzas de la Biblia, y ha resistido las pruebas de la historia y la experiencia. Es la posición doctrinal de la Iglesia Bautista Hispana de Conroe “Jesús es el Camino” en los años de existencia de esta.
+</p>
+<br>
+<a href="\resources\Declaración de FE.pdf" target="_blank"><button class="declaracion">Nuestra declaración de fe (PDF)</button></a>		
                         <!-- /Content -->
                     </div>
                  </div>

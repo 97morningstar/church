@@ -75,7 +75,7 @@
                     <div class="copyright_wrap_inner">
                         <div class="content_wrap">
                             <div class="copyright_text">Iglesia Bautista Hispana de Conroe
-                                <p class="">&lt/&gt with <span style="color:#FF0000">&lt;3</span> by <a href="https://github.com/97morningstar" target="_blank">Elisa Martinez</a></p>
+                               
                             </div>
                         </div>
                     </div>

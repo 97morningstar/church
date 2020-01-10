@@ -24,6 +24,47 @@ Route::get('/', function () {
     return view('templates.menu');
 });
 
+Route::get('/quienessomos', function(){
+	return view('layout.quienessomos');
+});
+
+Route::get('/en_que_creemos', function(){
+	return view('layout.en_que_creemos');
+});
+
+Route::get('/nuestras_asociaciones', function(){
+	return view('layout.nuestras_asociaciones');
+});
+
+/* Crear vistas */
+
+Route::get('/ninos', function(){
+	return view('layout.ministerios.niños');
+});
+
+Route::get('/jovenes', function(){
+	return view('layout.ministerios.jovenes');
+});
+
+Route::get('/femeniles', function(){
+	return view('layout.ministerios.femeniles');
+});
+
+Route::get('/hombres', function(){
+	return view('layout.ministerios.hombres');
+});
+ 
+Route::get('/adoracion', function(){
+	return view('layout.ministerios.adoracion');
+});
+
+Route::get('/evangelismoymisiones', function(){
+	return view('layout.ministerios.evangelismoymisiones');
+});
+
+/* End Crear vista */
+
+
 Route::get('/eventos', function(){
 	return view('layout.eventos');
 });
@@ -32,9 +73,7 @@ Route::get('/horarios', function(){
 	return view('templates.horarios');
 });
 
-Route::get('/quienessomos', function(){
-	return view('layout.quienessomos');
-});
+
 
 Route::get('/nuestros_principios', function(){
 	return view('layout.nuestrosprincipios');
@@ -52,9 +91,6 @@ Route::get('/valores', function(){
 	return view('layout.valores');
 });
 
-Route::get('/en_que_creemos', function(){
-	return view('layout.en_que_creemos');
-});
 
 Route::get('/lideres', function(){
 	return view('layout.lideres');
@@ -67,7 +103,7 @@ Route::post('/contactos/store', ['as' => 'contacto.store', 'uses' => 'ContactCon
 Route::get('/galeria', ['as' => 'galeria', 'uses' => 'GalleryController@index']);
 
 
-
+/*
 Route::get('/login', ['as' => 'login', 'uses' => 'Auth\LoginController@showLoginForm']);
 
 Route::post('/login', ['as' => 'login', 'uses' => 'Auth\LoginController@login']);
@@ -83,7 +119,7 @@ Route::get('/panel/event/{id}/edit', ['as' => 'panel.event_edit', 'uses' => 'Eve
 Route::put('/panel/event/{id}', ['as' => 'panel.event_update', 'uses' => 'EventsController@update']);
 Route::delete('/panel/event/{id}', ['as' => 'panel.event_destroy', 'uses' => 'EventsController@destroy']);
 
-
+*/
 
 Route::get('/contactos/googlee6e038e50dee42fb.html', function(){
 	return view('templates.googlee6e038e50dee42fb');

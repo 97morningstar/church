@@ -1,3 +1,116 @@
+/********************** Quienes Somos Styles *********************************/
+
+.quienes_somos_header{
+    color: #383f42 !important;
+    font-size: 36px !important;
+    text-align: center;
+
+}
+
+
+#quienes_somos_text_1{
+
+    font-size: 21px;
+    text-align: justify;
+    color: #fff;
+    margin-top: 5%;
+line-height: 1.25;
+    margin-bottom: 0;
+}
+
+ #quienes_somos_text_2, #quienes_somos_text_3, #quienes_somos_text_4{
+      font-size: 21px;
+    text-align: justify;
+    color: #fff;
+    margin-top: 5%;
+line-height: 1.25;
+    margin-bottom: 0;
+ }
+
+#quienes_somos_text_bienvenido{
+       
+        font-size: 40px;
+          text-align: center;
+       margin-right: auto;
+        margin-left: auto;
+ color: #383f42 !important;
+ font-weight: 100;
+    line-height: 1;
+ }
+ .quienes_somos_image{
+    padding: 3px;
+    border: solid 1px #ccc;
+
+    width: 60%;
+    border-radius: 50% !important;
+
+}
+
+ .quienes_somos_image_1{
+    padding: 3px;
+    border: solid 2px #ccc;
+     
+    width: 60%;
+    border-radius: 50% !important;
+
+}
+
+.more-padding{
+    padding: 4.1428em 0 !important;
+}
+
+
+/********************** End of Quienes Somos Styles *********************************/
+/********************** En Que Creemos Style ****************************************/
+
+#en_que_creemos_title{
+       
+        font-size: 40px;
+          text-align: center;
+       margin-right: auto;
+        margin-left: auto;
+ color: #383f42 !important;
+ font-weight: 100;
+    line-height: 1;
+ }
+
+ .en_que_creemos_text{
+    font-size: 21px;
+    text-align: justify;
+    color: #383f42;
+line-height: 1.25;
+    margin-bottom: 0;
+ }
+
+.declaracion{
+    background: #b35d5c;
+    color: #fff;
+    font-weight: 900;
+    font-size: 15px;
+}
+.declaracion:hover{
+    background: #149cd8;
+    color: #fff;
+     font-size: 15px;
+}
+
+
+/********************** End of En Que Creemos Style ****************************************/
+/*********************** Nuestras asociaciones Style ***************************************/
+ .nuestras_asociaciones{
+    font-size: 21px;
+    color: #383f42;
+line-height: 1.25;
+    margin-bottom: 0;
+ }
+
+
+
+/*********************** End of Nuestras asociaciones Style ***************************************/
+
+
+
+
 @charset "utf-8";
     #slide-4-layer-3, #slide-6-layer-3 {
     line-height: 24px;

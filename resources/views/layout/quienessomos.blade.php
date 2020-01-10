@@ -34,17 +34,84 @@
                 </div>
                 <!-- /Breadcrumbs -->
                 <!-- Page Content Wrap -->
-               <div class="page_content_wrap">
+               <div class="page_content_wrap"  style="background-color: #f7fbfc; padding: 7.1428em 0;">
                     <div class="content_wrap">
                         <!-- Content -->
-                        <h2>Quiénes somos</h2>
+
+                        <div id="quienes_somos_text_bienvenido"> Bienvenido a la página web de la
+                            <br><br>
+                         Iglesia Bautista Hispana de Conroe.
+                        </div>
                        
-                       <p class="text-justify" style="font-size: 18px; text-align: justify;">Bienvenido a la página web de la Iglesia Bautista Hispana de Conroe. Somos una iglesia nueva en esta comunidad que nació en el corazón de Dios con el firme propósito de ser el cuerpo de Cristo, de la cual Él es la cabeza, y cuyos miembros sean todos aquellos que verdaderamente le hayan recibido por medio de la fe. <br><br>
-                       Trabajamos para que todos los miembros del cuerpo de Cristo estén unidos en Él por el mismo Espíritu Santo, por lo tanto, vivan en amor, armonía y unidad como una familia en Cristo. 
-                       Luchamos por el mismo propósito y aceptamos las prácticas denominacionales que se basan en una sincera interpretación de la Biblia, teniendo como base los principios bautistas y nuestra declaración de FE. <br><br>
-                       Creemos que nuestro propósito como Iglesia es ser testigos, dando a conocer a Cristo a los hombres perdidos, hacer discípulos y glorificar a Dios.
-</p>
+                     
                         <!-- /Content -->
                     </div>
                  </div>
+               
+                                  
+               <div class="page_content_wrap more-padding"  style="background-color: #fff;  background:radial-gradient(circle farthest-corner,rgb(67, 91, 107),rgba(56,63,66,.6));">
+                  <div class="content_wrap">
+
+                    <div class="row ">
+                      <div class="column-3_8" style="text-align: center;">
+                        <img class="quienes_somos_image" src="/images/gallery/IMG_2106.JPG">
+                      </div>
+                      <div class="column-3_5">
+                         <p class="" id="quienes_somos_text_1">                        
+                        Somos una iglesia nueva en esta comunidad que nació en el corazón de Dios con el firme propósito de ser el cuerpo de Cristo, de la cual Él es la cabeza, y cuyos miembros sean todos aquellos que verdaderamente le hayan recibido por medio de la fe. <br><br>    
+                        </p>
+                      </div>
+                   </div>
+
+
+
+
+                       
+                  </div>
+               </div>
+
+                 <div class="page_content_wrap more-padding"  style="background: linear-gradient(#b35d5c,#149cd8);">
+                  <div class="content_wrap">
+
+
+                     <div class="row more-padding">
+                       <div class="column-3_5">
+                         <p class="" id="quienes_somos_text_2">                        
+                        Trabajamos para que todos los miembros del cuerpo de Cristo estén unidos en Él por el mismo Espíritu Santo, por lo tanto, vivan en amor, armonía y unidad como una familia en Cristo.<br><br>    
+                        </p>
+                      </div>
+                      <div class="column-3_8" style="text-align: center;">
+                        <img class="quienes_somos_image_1" src="/images/gallery/cross.jpg">
+                      </div>                  
+                   </div>
+
+                     <div class="row more-padding">
+                      
+                       <div class="column-3_5">
+                         <p class="" id="quienes_somos_text_3">                        
+                        Luchamos por el mismo propósito y aceptamos las prácticas denominacionales que se basan en una sincera interpretación de la Biblia, teniendo como base los principios bautistas y nuestra declaración de FE. <br><br>    
+                        </p>
+                      </div>
+                      <div class="column-3_8" style="text-align: center;">
+                        <img class="quienes_somos_image_1" src="/images/gallery/person.jpg">
+                      </div> 
+                                       
+                   </div>
+
+                       <div class="row more-padding">
+                       <div class="column-3_5">
+                         <p class="" id="quienes_somos_text_4">                        
+                        Creemos que nuestro propósito como Iglesia es ser testigos, dando a conocer a Cristo a los hombres perdidos, hacer discípulos y glorificar a Dios.<br><br>    
+                        </p>
+                      </div>
+                      <div class="column-3_8" style="text-align: center;">
+                        <img class="quienes_somos_image_1" src="/images/gallery/church.jpg">
+                      </div>                  
+                   </div>
+                  </div>
+               </div>
+           
+
+
+
 @endsection
