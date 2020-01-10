@@ -1,0 +1,59 @@
+.nav-item {
+  display: block;
+  margin-top: 0;
+  padding-top: 8px;
+  z-index: 1;
+}
+
+.navbar-social {
+  margin-left: 10px;
+  display: inline-block;
+}
+
+.navbar-social a {
+  color: white !important
+  transition: 0.3s;
+}
+
+.navbar-social a:hover{
+  color: #696969 !important;
+}
+
+.navbar-text {
+  padding-top: 0;
+}
+
+.facebook-widget {
+  display: inline-block;
+}
+
+@media (min-width: 762px) {
+  .facebook-widget {
+    width: 33%;
+  }
+}
+
+@media (max-width: 761px) {
+  .facebook-widget {
+    width: 80%;
+  }
+}
+
+.btn {
+  border-radius: 0 !important;
+  text-transform: uppercase;
+}
+
+.leer-mas-btn {
+  margin-top: 20px;
+  background-color: #1dc6df;
+  border-color: #1dc6df;
+  color: white !important;
+}
+
+#saber_mas {
+  margin-top: 20px;
+  background-color: white;
+  border-color: white;
+  color: #1dc6df;
+}
