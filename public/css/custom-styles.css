@@ -44,7 +44,15 @@
   text-transform: uppercase;
 }
 
+.leer-mas-btn {
+  margin-top: 20px;
+  background-color: #1dc6df;
+  border-color: #1dc6df;
+  color: white !important;
+}
+
 #saber_mas {
+  margin-top: 20px;
   background-color: white;
   border-color: white;
   color: #1dc6df;

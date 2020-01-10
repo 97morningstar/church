@@ -92,7 +92,7 @@
                                                                 <div class="sc_services_item_description">
                                                                    <h5 class="sc_title sc_title_regular margin_top_null">Ser La Iglesia de Jesucristo que nuestra Comunidad necesita para glorificar a Dios en cumplimiento de La Gran Comisión.</h5>
                                                                     <p>“Abre mis ojos, y miraré las maravillas de tu ley” Salmos 119:18</p>
-                                                                    <a href="/vision" class="sc_button sc_button_square sc_button_style_filled sc_button_color_style_2 sc_button_size_large readmore">Leer más</a>
+                                                                    <a class="btn btn-primary btn-square leer-mas-btn" href="/vision" role="button">Leer más</a>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -106,7 +106,7 @@
                                                                 <div class="sc_services_item_description">
                                                                     <h5 class="sc_title sc_title_regular margin_top_null"></h5>
                                                                     <p>"Y nosotros, pueblo tuyo, y ovejas de tu prado, Te alabaremos para siempre; De generación en generación cantaremos tus alabanzas." Salmos 79:13</p>
-                                                                    <a href="/horarios" class="sc_button sc_button_square sc_button_style_filled sc_button_color_style_2 sc_button_size_large readmore">Leer más</a>
+                                                                    <a class="btn btn-primary btn-square leer-mas-btn" href="/horarios" role="button">Leer más</a>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -120,7 +120,7 @@
                                                                 <div class="sc_services_item_description">
                                                                     <h5 class="sc_title sc_title_regular margin_top_null">Eventos en el año 2018. Ver programa de la Convención de Texas.</h5>
                                                                     <p>"Y el ángel me dijo: Escribe: Bienaventurados los que son llamados a la cena de las bodas del Cordero. Y me dijo: Estas son palabras verdaderas de Dios." Apocalipsis 19:9</p>
-                                                                    <a href="/eventos" class="sc_button sc_button_square sc_button_style_filled sc_button_color_style_2 sc_button_size_large readmore">Leer más</a>
+                                                                    <a class="btn btn-primary btn-square leer-mas-btn" href="/eventos" role="button">Leer más</a>
                                                                 </div>
                                                             </div>
                                                         </div>
