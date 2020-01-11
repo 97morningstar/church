@@ -21,6 +21,7 @@
 
 .navbar-text {
   padding-top: 0;
+  color: white !important;
 }
 
 .facebook-widget {
@@ -56,4 +57,20 @@
   background-color: white;
   border-color: white;
   color: #1dc6df;
+}
+
+.navbar {
+  font-size: 1.15em;
+}
+
+.navbar-brand {
+  font-size: 1.4em;
+}
+
+.nav-link {
+  color: white !important;
+}
+
+.nav-item a:hover {
+  color: #696969 !important;
 }
