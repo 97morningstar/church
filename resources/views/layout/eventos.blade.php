@@ -24,13 +24,13 @@
  @section('pop')
 
                 <div class="top_panel_title top_panel_style_3 title_present breadcrumbs_present scheme_original">
-                    <div style="background-image: url(/images/o/pp.jpg);"  class="top_panel_title_inner top_panel_inner_style_3 breadcrumbs_block_bg3">
+                    <div style="background-image: url(/images/o/eventos.jpg);"  class="top_panel_title_inner top_panel_inner_style_3 breadcrumbs_block_bg3">
                         <div class="content_wrap">
-                            <h1 class="page_title" style="color: #000;">Próximos Eventos</h1>
+                            <h1 class="page_title" >Próximos Eventos</h1>
                             <div class="breadcrumbs" >
-                                <a class="breadcrumbs_item home" href="index.html" style="color: #000;">Menú</a>
+                                <a class="breadcrumbs_item home" href="/" >Menú</a>
                                 <span class="breadcrumbs_delimiter"></span>
-                                <span class="breadcrumbs_item current" style="color: #000;">Todos los eventos</span>
+                                <span class="breadcrumbs_item current" >Todos los eventos</span>
                             </div>
                         </div>
                     </div>
@@ -55,16 +55,16 @@
 
        
                                                               
-                                                                    <label class="label-tribe-bar-search" for="tribe-bar-search">Buscar</label>
+                                                                   
 
-                                                                    <input type="text" name="tribe-bar-search" id="search" value="" placeholder="Escribe para Buscar">
+                                                                    <input style="width: 80%; height: 34px;" type="text" name="tribe-bar-search" id="search" value="" placeholder="Escribe para buscar un evento">
 
 
                                                                      
                                                                
 
 
-                                                                    <input class="tribe-events-button tribe-no-param" value="Buscar Eventos" />
+                                                                    <input style="height: 34px;" class="tribe-events-button tribe-no-param" value="Buscar Eventos" />
 
 
                                                              

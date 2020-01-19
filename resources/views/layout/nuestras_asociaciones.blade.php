@@ -18,11 +18,11 @@
  @section('pop')
 
                 <div  class="top_panel_title top_panel_style_3 title_present breadcrumbs_present scheme_original">
-                    <div style="background-image: url(/images/o/q.jpg);" class="top_panel_title_inner top_panel_inner_style_3 breadcrumbs_block_bg3">
+                    <div style="background-image: url(/images/o/galeria.jpg);" class="top_panel_title_inner top_panel_inner_style_3 breadcrumbs_block_bg3">
                         <div class="content_wrap">
                             <h1 class="page_title">Nuestras asociaciones</h1>
                             <div class="breadcrumbs">
-                                <a class="breadcrumbs_item home" href="index.html">Menú</a>
+                                <a class="breadcrumbs_item home" href="/">Menú</a>
                                 <span class="breadcrumbs_delimiter"></span>
                                  <span class="breadcrumbs_item current">Quiénes somos</span>
                                 <span class="breadcrumbs_delimiter"></span>

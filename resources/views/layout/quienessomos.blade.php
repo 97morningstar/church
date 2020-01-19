@@ -23,7 +23,7 @@
                         <div class="content_wrap">
                             <h1 class="page_title">Quiénes Somos</h1>
                             <div class="breadcrumbs">
-                                <a class="breadcrumbs_item home" href="index.html">Menú</a>
+                                <a class="breadcrumbs_item home" href="/">Menú</a>
                                 <span class="breadcrumbs_delimiter"></span>
                                  <span class="breadcrumbs_item current">Quiénes somos</span>
                                 <span class="breadcrumbs_delimiter"></span>

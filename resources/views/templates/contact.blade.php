@@ -22,7 +22,7 @@ archive body_style_wide body_filled article_style_stretch scheme_original top_pa
  @section('pop')
 
             <!-- Page Content Wrap -->
-                <div class="page_content_wrap page_paddings_no">
+                <div class="page_paddings_no">
                     <!-- Content -->
                     <div class="content">
                         <article class="post_item post_item_single page">
