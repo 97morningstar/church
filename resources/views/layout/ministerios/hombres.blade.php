@@ -18,7 +18,7 @@
  @section('pop')
 
                 <div  class="top_panel_title top_panel_style_3 title_present breadcrumbs_present scheme_original">
-                    <div style="background-image: url(/images/o/q.jpg);" class="top_panel_title_inner top_panel_inner_style_3 breadcrumbs_block_bg3">
+                    <div style="background-image: url(/images/o/Slide2.JPG);" class="top_panel_title_inner top_panel_inner_style_3 breadcrumbs_block_bg3">
                         <div class="content_wrap">
                             <h1 class="page_title">Hombres</h1>
                             <div class="breadcrumbs">
@@ -36,9 +36,12 @@
                <div class="page_content_wrap" style="background-color: #f7fbfc; ">
                     <div class="content_wrap">
                         <!-- Content -->
-                        <h2 id="en_que_creemos_title">Nuestro lema: Jesús es el Camino. </h2>
+                    
                        
-                      <p class="en_que_creemos_text">Nuestro lema intenta resumir las propias palabras de Jesús en Juan 14:6, mediante la cual proclamamos que el único camino, la verdad y la vida eterna solamente la podemos encontrar a través de Jesucristo. </p>
+                      <p class="en_que_creemos_text">Salmos.101:6 <br><br> <i>“Mis ojos pondré en los fieles de la tierra, para que estén conmigo; El que ande en el camino de la perfección, éste me servirá”</i>
+<br><br>
+Los hombres de nuestra iglesia están organizados para conformar lo que consideramos la columna de la iglesia. Hombres de valor como los que necesita Dios para llevar su obra de gracia al mundo. 
+</p>
 
                    
                         <!-- /Content -->

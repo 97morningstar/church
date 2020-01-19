@@ -18,7 +18,7 @@
  @section('pop')
 
                 <div  class="top_panel_title top_panel_style_3 title_present breadcrumbs_present scheme_original">
-                    <div style="background-image: url(/images/o/q.jpg);" class="top_panel_title_inner top_panel_inner_style_3 breadcrumbs_block_bg3">
+                    <div style="background-image: url(/images/o/Slide2.JPG);" class="top_panel_title_inner top_panel_inner_style_3 breadcrumbs_block_bg3">
                         <div class="content_wrap">
                             <h1 class="page_title">Adoración</h1>
                             <div class="breadcrumbs">
@@ -36,9 +36,14 @@
                <div class="page_content_wrap" style="background-color: #f7fbfc; ">
                     <div class="content_wrap">
                         <!-- Content -->
-                        <h2 id="en_que_creemos_title">Nuestro lema: Jesús es el Camino. </h2>
+                   
                        
-                      <p class="en_que_creemos_text">Nuestro lema intenta resumir las propias palabras de Jesús en Juan 14:6, mediante la cual proclamamos que el único camino, la verdad y la vida eterna solamente la podemos encontrar a través de Jesucristo. </p>
+                      <p class="en_que_creemos_text">El ministerio de adoración se prepara para traer en cada celebración de la iglesia un mensaje musical que involucre a toda la congregación. <br><br>
+Trabajamos bajo el principio de que 
+<i><b>“Una iglesia con un ministerio de adoración poderoso es una iglesia que tiene un potencial de crecimiento”</b></i>
+<br><br>
+Este ministerio también promueve la enseñanza musical para tocar instrumentos y clases de canto para niños y jóvenes que sean llamados a servir como adoradores de Dios. 
+</p>
 
                      
                         <!-- /Content -->

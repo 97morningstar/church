@@ -18,7 +18,7 @@
  @section('pop')
 
                 <div  class="top_panel_title top_panel_style_3 title_present breadcrumbs_present scheme_original">
-                    <div style="background-image: url(/images/o/q.jpg);" class="top_panel_title_inner top_panel_inner_style_3 breadcrumbs_block_bg3">
+                    <div style="background-image: url(/images/o/Slide2.JPG);" class="top_panel_title_inner top_panel_inner_style_3 breadcrumbs_block_bg3">
                         <div class="content_wrap">
                             <h1 class="page_title">Jóvenes</h1>
                             <div class="breadcrumbs">
@@ -36,9 +36,15 @@
                <div class="page_content_wrap" style="background-color: #f7fbfc; ">
                     <div class="content_wrap">
                         <!-- Content -->
-                        <h2 id="en_que_creemos_title">Nuestro lema: Jesús es el Camino. </h2>
+                      
                        
-                      <p class="en_que_creemos_text">Nuestro lema intenta resumir las propias palabras de Jesús en Juan 14:6, mediante la cual proclamamos que el único camino, la verdad y la vida eterna solamente la podemos encontrar a través de Jesucristo. </p>
+                      <p class="en_que_creemos_text">1 TIMOTEO 4:12<br><br>
+<i>“Ninguno tenga en poco tu juventud, sino sé ejemplo de los creyentes en palabra, conducta, amor, espíritu, fe y pureza”</i>
+
+<br><br>
+Una de las mejores enseñanzas para los jóvenes cristianos es saber cual es su lugar en la iglesia. Así como el apóstol Pablo exhorta a su discípulo Timoteo, nuestros jóvenes también están llamados a ser ejemplos en todos, aún de los mayores; y en especial en el manejo de la Palabra de Dios, en su conducta diaria, su amor por Dios y por el prójimo, su vida espiritual, fe inquebrantable y pureza de vida. <br><br>
+A través de estos principios podemos impactar a otros jóvenes a seguir a Cristo a la manera en que Él lo desea de cada joven. 
+</p>
 
                     
                         <!-- /Content -->

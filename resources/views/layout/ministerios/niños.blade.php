@@ -18,7 +18,7 @@
  @section('pop')
 
                 <div  class="top_panel_title top_panel_style_3 title_present breadcrumbs_present scheme_original">
-                    <div style="background-image: url(/images/o/q.jpg);" class="top_panel_title_inner top_panel_inner_style_3 breadcrumbs_block_bg3">
+                    <div style="background-image: url(/images/o/Slide2.JPG);" class="top_panel_title_inner top_panel_inner_style_3 breadcrumbs_block_bg3">
                         <div class="content_wrap">
                             <h1 class="page_title">Niños</h1>
                             <div class="breadcrumbs">
@@ -36,9 +36,21 @@
                <div class="page_content_wrap" style="background-color: #f7fbfc; ">
                     <div class="content_wrap">
                         <!-- Content -->
-                        <h2 id="en_que_creemos_title">Nuestro lema: Jesús es el Camino. </h2>
+                      
                        
-                      <p class="en_que_creemos_text">Nuestro lema intenta resumir las propias palabras de Jesús en Juan 14:6, mediante la cual proclamamos que el único camino, la verdad y la vida eterna solamente la podemos encontrar a través de Jesucristo. </p>
+                      <p class="en_que_creemos_text">MARCOS 10:13-15<br>
+<i>“Y le presentaban niños para que los tocase; y los discípulos reprendían a los que los presentaban. 
+Viéndolo Jesús, se indignó, y les dijo: Dejad a los niños venir a mí, y no se lo impidáis; porque de los tales es el reino de Dios. 
+De cierto os digo, que el que no reciba el reino de Dios como un niño, no entrará en él”
+</i>
+<br><br>
+
+Programa de trabajo con nuestros niños:
+<br><br>
+Cada domingo celebramos una Escuela Dominical, en la cual, en primer lugar, insistimos en que ellos se acerquen a Jesús. Se les enseña la palabra de una manera oportuna para la edad, a la vez que participan de un programa educacional integral de La biblia.
+<br>
+Cada verano celebramos la Escuela Bíblica de Vacaciones, el cual es un evento que dura toda la semana y en ella los niños aprenden, realizan manualidades, se divierten y se acercan a Cristo.  
+</p>
 
                      
                         <!-- /Content -->

@@ -18,7 +18,7 @@
  @section('pop')
 
                 <div  class="top_panel_title top_panel_style_3 title_present breadcrumbs_present scheme_original">
-                    <div style="background-image: url(/images/o/q.jpg);" class="top_panel_title_inner top_panel_inner_style_3 breadcrumbs_block_bg3">
+                    <div style="background-image: url(/images/o/Slide2.JPG);" class="top_panel_title_inner top_panel_inner_style_3 breadcrumbs_block_bg3">
                         <div class="content_wrap">
                             <h1 class="page_title">Evagelismo y Misiones</h1>
                             <div class="breadcrumbs">
@@ -36,9 +36,13 @@
                <div class="page_content_wrap" style="background-color: #f7fbfc; ">
                     <div class="content_wrap">
                         <!-- Content -->
-                        <h2 id="en_que_creemos_title">Nuestro lema: Jesús es el Camino. </h2>
-                       
-                      <p class="en_que_creemos_text">Nuestro lema intenta resumir las propias palabras de Jesús en Juan 14:6, mediante la cual proclamamos que el único camino, la verdad y la vida eterna solamente la podemos encontrar a través de Jesucristo. </p>
+                    
+                      <p class="en_que_creemos_text">Hechos.1:8 <br><br>
+                      <i> “… pero recibiréis poder, cuando haya venido sobre vosotros el Espíritu Santo, y me seréis testigos en Jerusalén, en toda Judea, en Samaria, y hasta lo último de la tierra”</i>
+<br><br>
+Nos esforzamos por alcanzar a los no alcanzados con la Palabra de verdad. La obra misionera en Cuba avanza. Ya se adquirió una casa para establecer la primera iglesia en la provincia de Ciego de Ávila. <br>
+Únete al quehacer misionero local y foráneo de la iglesia en oración y si estás movido por Dios, también puedes cooperar para alcanzar a los que aún no tienen esperanza. 
+</p>
 
                     
                         <!-- /Content -->

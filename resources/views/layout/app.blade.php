@@ -44,6 +44,7 @@
      {{--   <link rel="stylesheet" href="css/style.min.css" type="text/css" media="all" />--}}
       {{--  <link rel="stylesheet" href="css/skin.min.css" type="text/css" media="all" /> --}}
 
+        <link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/fontello/css/fontello.css" type="text/css" media="all" />
         <link rel="icon" href="http://placehold.it/32x32" />
         <link rel="icon" href="http://placehold.it/32x32" />
