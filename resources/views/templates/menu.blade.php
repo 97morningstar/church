@@ -9,6 +9,9 @@
                        <div class="top_panel_wrap_inner top_panel_inner_style_5 top_panel_position_over">
  @endsection
 
+ <div id="fb-root"></div>
+ <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v5.0"></script>
+
  @section('body_class')
  page body_style_wide body_filled article_style_stretch scheme_original top_panel_show top_panel_over sidebar_hide
  @endsection
@@ -61,15 +64,15 @@
                                                 <!-- /Services item -->
                                             </div>
                                         </div>
-                                           
+
                                         <!-- /Services section -->
                                          </div>
                                         </div>
                                     </div>
 
-                                       
+
                                     </div>
-                                
+
                                 <!-- /Welcome section -->
 
                                    <!-- Services section -->
@@ -77,7 +80,7 @@
                                     <div class="content_wrap">
                                         <div class="sc_services_wrap">
                                             <div class="sc_services sc_services_style_services-2 sc_services_type_icons sc_slider_nopagination sc_slider_nocontrols aligncenter width_100_per" data-interval="7580" data-slides-per-view="3" data-slides-min-width="250">
-                                             
+
                                                 <div class="sc_columns columns_wrap">
                                                     <div class="column-1_3 column_padding_bottom">
                                                         <div class="sc_services_item sc_services_item_1 odd first">
@@ -89,7 +92,7 @@
                                                                 <div class="sc_services_item_description">
                                                                    <h5 class="sc_title sc_title_regular margin_top_null">Ser La Iglesia de Jesucristo que nuestra Comunidad necesita para glorificar a Dios en cumplimiento de La Gran Comisión.</h5>
                                                                     <p>“Abre mis ojos, y miraré las maravillas de tu ley” Salmos 119:18</p>
-                                                                    <a href="/vision" class="sc_button sc_button_square sc_button_style_filled sc_button_color_style_2 sc_button_size_large readmore">Leer más</a>
+                                                                    <a class="btn btn-primary btn-square leer-mas-btn" href="/vision" role="button">Leer más</a>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -103,7 +106,7 @@
                                                                 <div class="sc_services_item_description">
                                                                     <h5 class="sc_title sc_title_regular margin_top_null"></h5>
                                                                     <p>"Y nosotros, pueblo tuyo, y ovejas de tu prado, Te alabaremos para siempre; De generación en generación cantaremos tus alabanzas." Salmos 79:13</p>
-                                                                    <a href="/horarios" class="sc_button sc_button_square sc_button_style_filled sc_button_color_style_2 sc_button_size_large readmore">Leer más</a>
+                                                                    <a class="btn btn-primary btn-square leer-mas-btn" href="/horarios" role="button">Leer más</a>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -117,7 +120,7 @@
                                                                 <div class="sc_services_item_description">
                                                                     <h5 class="sc_title sc_title_regular margin_top_null">Eventos en el año 2018. Ver programa de la Convención de Texas.</h5>
                                                                     <p>"Y el ángel me dijo: Escribe: Bienaventurados los que son llamados a la cena de las bodas del Cordero. Y me dijo: Estas son palabras verdaderas de Dios." Apocalipsis 19:9</p>
-                                                                    <a href="/eventos" class="sc_button sc_button_square sc_button_style_filled sc_button_color_style_2 sc_button_size_large readmore">Leer más</a>
+                                                                    <a class="btn btn-primary btn-square leer-mas-btn" href="/eventos" role="button">Leer más</a>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -345,7 +348,7 @@
                                                                         <a href="/eventos">SEMANA DE PASIONES</a>
                                                                     <span class=""></span>
                                                                     </h6>
-                                                                 
+
                                                                 </div>
                                                                 <!-- /Event item -->
                                                                 <!-- Event item -->
@@ -358,7 +361,7 @@
                                                                         <a href="/eventos">DOMINGO DE RESURRECCIÓN</a>
                                                                     <span class="sc_events_item_time">10:30 am </span>
                                                                     </h6>
-                                                                 
+
                                                                 </div>
                                                                 <!-- /Event item -->
                                                                 <!-- Event item -->
@@ -371,7 +374,7 @@
                                                                         <a href="/eventos">SEGUNDO CONVIVIO</a>
                                                                     <span class=""></span>
                                                                     </h6>
-                                                                  
+
                                                                 </div>
                                                                 <!-- /Event item -->
                                                                 <!-- Event item -->
@@ -384,7 +387,7 @@
                                                                         <a href="/eventos">Empieza el ciclo de Edificación del Hogar y la Familia</a>
                                                                     <span class="sc_events_item_time"></span>
                                                                     </h6>
-                                                                  
+
                                                                 </div>
                                                                 <!-- /Event item -->
                                                                 <!-- Event item -->
@@ -397,7 +400,7 @@
                                                                         <a href="/eventos">Día de las madres</a>
                                                                     <span class="sc_events_item_time">10:30 am</span>
                                                                     </h6>
-                                                                   
+
                                                                 </div>
                                                                 <!-- /Event item -->
                                                             </div>
@@ -408,6 +411,7 @@
                                         </div>
                                     </div>
                                 </div>
+
                                 <!-- /News section -->
                                 <!-- Essential Grid Section -->
                                 <div class="sc_section">
@@ -734,7 +738,7 @@
                                                 </div>
                                             </div>
                                         </div><div class="column-1_4 sc_column_item sc_column_item_4 even text_align_center margin_top_0_5em">
-                                            <a href="/contactos" class="sc_button sc_button_square sc_button_style_border sc_button_color_style_4 sc_button_size_large margin_left_0_0833">Saber Más</a>
+                                            <a id="saber_mas" class="btn btn-primary btn-square" href="/contactos" role="button">Saber Más</a>
                                         </div>
                                         </div>
                                     </div>
