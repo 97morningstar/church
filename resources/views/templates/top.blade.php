@@ -8,42 +8,45 @@
       <li class="nav-item navbar-link">
         <a class="nav-link" href="/"> Inicio <span class="sr-only">(current)</span></a>
       </li>
-      <!-- Servicios dropdown -->
-      <!--<li class="nav-item dropdown">
+      <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Servicios
+          Sobre Nosotros
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <a class="dropdown-item" href="#">Something else here</a>
+          <a class="dropdown-item" href="/quienessomos">Quines Somos</a>
+          <a class="dropdown-item" href="/en_que_creemos">En Qué Creemos</a>
+          <a class="dropdown-item" href="/lideres">Líderes</a>
+          <a class="dropdown-item" href="/contactos">Contactos</a>
         </div>
-      </li>-->
-      <li class="nav-item">
-        <a class="nav-link" href="/horarios">Horarios</a>
       </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Quiénes Somos
+          Recursos
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="/quienessomos">Sobre Nosotros</a>
-          <a class="dropdown-item" href="nuestros_principios">Nuestros Principios</a>
-          <a class="dropdown-item" href="/vision">Visión</a>
-          <a class="dropdown-item" href="/mision">Misión</a>
-          <a class="dropdown-item" href="/valores">Nuestros Valores</a>
-          <a class="dropdown-item" href="/en_que_creemos">En Qué Creemos</a>
-          <a class="dropdown-item" href="/lideres">Líderes</a>
+          <a class="dropdown-item" href="/eventos">Eventos</a>
+          <a class="dropdown-item" href="/mensajes">Mensajes</a>
+          <a class="dropdown-item" href="/deseo_unirme_a_la_membrecía">Deseo unirme a la membrecía</a>
         </div>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="/galeria">Galería</a>
+        <a class="nav-link" href="/soy_nuevo">Soy Nuevo</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Ministerios
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="/ninos">Niños</a>
+          <a class="dropdown-item" href="/jovenes">Jóvenes</a>
+          <a class="dropdown-item" href="/femeniles">Femeniles</a>
+          <a class="dropdown-item" href="/hombres">Hombres</a>
+          <a class="dropdown-item" href="/adoracion">Adoración</a>
+          <a class="dropdown-item" href="/evangelismoymisiones">Evangelismo y Misiones</a>
+        </div>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="/eventos">Eventos</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/contactos">Contactos</a>
+        <a class="nav-link" href="https://tithe.ly/give?c=1148549">Dar</a>
       </li>
     </ul>
     <span class="navbar-text">

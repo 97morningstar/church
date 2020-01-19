@@ -43,7 +43,7 @@
                                 </div>
                                 <!-- /Banner -->
 
-  <!-- Welcome section -->
+                                <!-- Welcome section -->
                                 <div class="hp1_welcome_section">
                                     <div class="content_wrap">
                                         <div class="columns_wrap">
@@ -78,7 +78,7 @@
                                    <!-- Services section -->
                                 <div class="hp3_info_section">
                                     <div class="content_wrap">
-                                        <div class="sc_services_wrap">
+                                        <div class="sc_services_wrap" id="vision-services-events">
                                             <div class="sc_services sc_services_style_services-2 sc_services_type_icons sc_slider_nopagination sc_slider_nocontrols aligncenter width_100_per" data-interval="7580" data-slides-per-view="3" data-slides-min-width="250">
 
                                                 <div class="sc_columns columns_wrap">
