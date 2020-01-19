@@ -32,6 +32,31 @@ Route::get('/en_que_creemos', function(){
 	return view('layout.en_que_creemos');
 });
 
+Route::get('/lideres', function(){
+	return view('layout.lideres');
+});
+
+Route::get('/contactos', ['as' => 'contacto', 'uses' => 'ContactController@index']);
+
+Route::post('/contactos/store', ['as' => 'contacto.store', 'uses' => 'ContactController@store']);
+
+/* Recursos */
+
+Route::get('/mensajes', function(){
+	return view('layout.mensajes');
+});
+
+Route::get('/deseo_unirme_a_la_membrecía', function(){
+
+	$file =  'resources/Forma_General_de_Membrecia_2.pdf';
+
+	return view('layout.deseo_unirme_a_la_membrecía', compact('file'));
+});
+
+Route::post('/deseo_unirme_a_la_membrecía/enviar', 'MiembroController@edit')->name('emailFile');
+
+/* End of Recursos*/
+
 Route::get('/nuestras_asociaciones', function(){
 	return view('layout.nuestras_asociaciones');
 });
@@ -92,13 +117,6 @@ Route::get('/valores', function(){
 });
 
 
-Route::get('/lideres', function(){
-	return view('layout.lideres');
-});
-
-Route::get('/contactos', ['as' => 'contacto', 'uses' => 'ContactController@index']);
-
-Route::post('/contactos/store', ['as' => 'contacto.store', 'uses' => 'ContactController@store']);
 
 Route::get('/galeria', ['as' => 'galeria', 'uses' => 'GalleryController@index']);
 

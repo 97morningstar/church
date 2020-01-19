@@ -1655,6 +1655,115 @@ function newlife_church_login_validate(form) {
 	}
 	return false;
 }
+		
+
+    
+
+
+function readTextFile(file, callback) {
+    var rawFile = new XMLHttpRequest();
+    rawFile.overrideMimeType("application/json");
+    rawFile.open("GET", file, true);
+    rawFile.onreadystatechange = function() {
+        if (rawFile.readyState === 4 && rawFile.status == "200") {
+            callback(rawFile.responseText);
+        }
+    }
+    rawFile.send(null);
+}
+
+readTextFile("/Eventos_2020/eventos.json", function(text){
+    var data = JSON.parse(text);
+    var array = data[0];
+
+
+       otherarray = Object.values(array);
+
+          // console.log(array);
+           var keyNames = Object.keys(array);
+     
+
+          for(var i = 0; i < 12; i++){
+
+          	arrays = Object.values(otherarray[i]);
+
+          	jQuery('#result').append('<hr>');
+
+          	
+          	jQuery('#result').append('<p style="font-size:1.7143em;margin-bottom:0px"><strong>'+ keyNames[i] +'</strong></p>');
+          	
+
+        for(var j = 0; j < arrays.length; j++){
+
+        			jQuery('#result').append('<hr class="pop">');
+          			jQuery('#result').append('<li style="font-size:21px;" class="list-group-item link-class"><p><strong>Dia: </strong>'+ arrays[j].Dia +'</p></br> <span class="text-muted"><p><strong>Actividad: </strong>'+  arrays[j].Actividad +'</p>' + ' <p><strong>Observaciones: </strong>'+ arrays[j].Observaciones +'</p></li>');
+          		
+          	}
+          }
+});
+
+
+ 
+    
+        jQuery('#search').keyup(function(event) {
+            // $.ajaxSetup({ cache: false });
+            jQuery('#result').html('');
+            var searchField = jQuery('#search').val();
+
+
+
+            var expression = new RegExp(searchField, "i");
+
+        
+				if((jQuery('#search').val()==null || jQuery('#search').val()=='')){
+                	jQuery('#result').empty();
+                }
+          
+
+   
+
+//usage:
+readTextFile("/Eventos_2020/eventos.json", function(text){
+    var data = JSON.parse(text);
+    var array = data[0];
+
+       otherarray = Object.values(array);
+       var keyNames = Object.keys(array);
+     
+
+          for(var i = 0; i < 12; i++){
+
+          	arrays = Object.values(otherarray[i]);
+
+           
+
+          	
+          	 for(var j = 0; j < arrays.length; j++){
+
+          		if(arrays[j].Dia.search(expression)!= -1 || arrays[j].Actividad.search(expression)!= -1 || arrays[j].Observaciones.search(expression)!= -1){
+          				jQuery('#result').append('<hr>');
+          				jQuery('#result').append('<p style="font-size:1.7143em;margin-bottom:0px"><strong>'+ keyNames[i] +'</strong></p><br>');
+          			break;	
+          		}
+          	}
+
+          
+
+
+        for(var j = 0; j < arrays.length; j++){
+
+          		if(arrays[j].Dia.search(expression)!= -1 || arrays[j].Actividad.search(expression)!= -1 || arrays[j].Observaciones.search(expression)!= -1){
+          			jQuery('#result').append('<li style="font-size:21px;" class="list-group-item link-class"><p><strong>Dia: </strong>'+ arrays[j].Dia +'</p></br> <span class="text-muted"><p><strong>Actividad: </strong>'+  arrays[j].Actividad +'</p>' + ' <p><strong>Observaciones: </strong>'+ arrays[j].Observaciones +'</p></li>');
+          		}
+          	}
+          }
+});
+         
+
+       
+ 		  
+          
+        });
 
 
 // Registration form 

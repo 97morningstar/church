@@ -39,18 +39,15 @@
                         <!-- Content -->
                         <h2>Líderes</h2>
                        
-                      <ol type="I" id="lideres">
+                      <ul id="lideres" style="font-size: 21px;">
                           <li>Pastor: Isaias Martinez.</li>
-                          <li>Secretaria: Elisa Martinez.</li>
-                          <li>Tesorera: Shelle Curry.</li>
-                          <li>Educación Cristiana y Eventos: Nuria Fuentes.</li> 
+                          <li>Tesorero: Adrián Jorge Moreno</li>
+                          <li>Educación Cristiana: Nuria Fuentes.</li> 
                           <li>Adoración: Elisa Martinez.</li> 
-                          <li>Administración: Leonel Valdez.</li> 
-                          <li>Evangelismo:</li> 
-                          <li>Celebraciones:</li> 
-                          <li>Diácono:</li> 
-                          <li>Guía de células:</li> 
-                       </ol>
+                          <li>Hombres: Mario Mastache.</li> 
+                          <li>Femeniles: Maria Salomé</li> 
+                          <li>Jóvenes: Adrián Jorge Moreno</li> 
+                       </ul>
                         <!-- /Content -->
                     </div>
                  </div>
