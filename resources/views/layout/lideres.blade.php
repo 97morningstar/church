@@ -38,15 +38,15 @@
                     <div class="content_wrap">
                         <!-- Content -->
                         <h2>Líderes</h2>
-                       
+
                       <ul id="lideres" style="font-size: 21px;">
                           <li>Pastor: Isaias Martinez.</li>
-                          <li>Tesorero: Adrián Jorge Moreno</li>
-                          <li>Educación Cristiana: Nuria Fuentes.</li> 
-                          <li>Adoración: Elisa Martinez.</li> 
-                          <li>Hombres: Mario Mastache.</li> 
-                          <li>Femeniles: Maria Salomé</li> 
-                          <li>Jóvenes: Adrián Jorge Moreno</li> 
+                          <li>Tesorero: Jorge Adrián Moreno</li>
+                          <li>Educación Cristiana: Nuria Fuentes</li> 
+                          <li>Adoración: Elisa Martinez.</li>
+                          <li>Hombres: Mario Mastache.</li>
+                          <li>Femeniles: Maria Salomé</li>
+                          <li>Jóvenes: Jorge Adrián Moreno</li>
                        </ul>
                         <!-- /Content -->
                     </div>

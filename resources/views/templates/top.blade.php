@@ -46,7 +46,7 @@
         </div>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="https://tithe.ly/give?c=1148549">Dar</a>
+        <a class="nav-link" href="https://tithe.ly/give?c=1148549" target="_blank">Dar</a>
       </li>
     </ul>
     <span class="navbar-text">
