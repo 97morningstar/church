@@ -38,6 +38,12 @@
   .facebook-widget {
     width: 80%;
   }
+  #vision-services-events {
+    padding-top: 240px;
+  }
+  .first {
+    height: 480px;
+  }
 }
 
 .btn {
@@ -138,4 +144,8 @@
 
 .page_content_wrap {
   padding-top: 40px !important;
+}
+
+.hp2_info_section {
+  padding-top: 0;
 }
