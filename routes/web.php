@@ -53,7 +53,11 @@ Route::get('/deseo_unirme_a_la_membrecía', function(){
 	return view('layout.deseo_unirme_a_la_membrecía', compact('file'));
 });
 
-Route::post('/deseo_unirme_a_la_membrecía/enviar', 'MiembroController@edit')->name('emailFile');
+Route::get('/soy_nuevo', function(){
+	return view('layout.soy_nuevo');
+});
+
+
 
 /* End of Recursos*/
 

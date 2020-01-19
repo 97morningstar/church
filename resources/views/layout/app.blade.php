@@ -108,7 +108,7 @@
         <script type="text/javascript" src="js/core.utils.min.js"></script>
 
 
-        <script type="text/javascript" src="js/core.init.min.js"></script>
+        <script type="text/javascript" src="js/core.init.js"></script>
 
 
 
@@ -126,7 +126,17 @@
         <script type="text/javascript" src="js/vendor/isotope/dist/isotope.pkgd.min.js"></script>
         <script type="text/javascript" src="js/jquery/ui/accordion.min.js"></script>
 
+        <script type="text/javascript" src="js/gallery/lightgallery.min.js"></script>
+        <script type="text/javascript" src="js/gallery/lg-thumbnail.min.js"></script>
+        <script type="text/javascript" src="js/gallery/lg-share.min.js"></script>
+        <script type="text/javascript" src="js/gallery/lg-pager.min.js"></script>
+        <script type="text/javascript" src="js/gallery/lg-fullscreen.min.js"></script>
 
+<script type="text/javascript">
+    jQuery(document).ready(function() {
+        jQuery("#lightgallery").lightGallery(); 
+    });
+</script>
 
 
     </body>

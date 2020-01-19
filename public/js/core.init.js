@@ -1690,12 +1690,12 @@ readTextFile("/Eventos_2020/eventos.json", function(text){
           	jQuery('#result').append('<hr>');
 
           	
-          	jQuery('#result').append('<p style="font-size:1.7143em;margin-bottom:0px"><strong>'+ keyNames[i] +'</strong></p>');
+          	jQuery('#result').append('<p style="font-size:1.7143em;margin-bottom:0px"><strong>'+ keyNames[i] +'</strong></p><br>');
           	
 
         for(var j = 0; j < arrays.length; j++){
 
-        			jQuery('#result').append('<hr class="pop">');
+        			///jQuery('#result').append('<hr class="pop">');
           			jQuery('#result').append('<li style="font-size:21px;" class="list-group-item link-class"><p><strong>Dia: </strong>'+ arrays[j].Dia +'</p></br> <span class="text-muted"><p><strong>Actividad: </strong>'+  arrays[j].Actividad +'</p>' + ' <p><strong>Observaciones: </strong>'+ arrays[j].Observaciones +'</p></li>');
           		
           	}
